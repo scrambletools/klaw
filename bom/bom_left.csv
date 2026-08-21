@@ -1,0 +1,15 @@
+Part,Designators,Qty,LCSC Part #,Source,Mount Face,Notes
+"klaw reversible PCB (klaw_1)",PCB,1,-,JLCPCB fab,-,"Same gerbers as right half; left build populates the BACK (B.Cu) face — CONFIRM face assignment against case design"
+"1N4148W diode SOD-123","D1-D10,D12-D16,D18,D20,D21",18,C81598,LCSC,Back,"Orientation per silkscreen arrow"
+"SK6812MINI RGB LED (plain 3535)","SW1-SW10,SW12-SW16,SW20,SW21",17,C2886570,LCSC,Back,"HAND-SOLDER (reverse-mount through window); NOT Mini-E; C5183448 = black-body alt"
+"MX hotswap socket (Kailh CPG151101S11 compat)","SW1-SW10,SW12-SW16,SW20,SW21",17,C41430893,LCSC,Back,"HAND-SOLDER (with LED, same footprint); HanElectricity clone, footprint-identical to Kailh"
+"MSK12C02 power slide switch",PSW1,1,C431540,LCSC,Back,
+"Alps SKRTLAE010 reset switch",RSW1,1,C110293,LCSC,Back,
+"JST PH 2-pin battery connector (S2B-PH-K-S)",BT1,1,C173752,LCSC,Back,
+"TRRS jack PJ-320A-4P (MJ-4PP-9 compatible THT)",J1,1,C18185602,LCSC,Back,"Verify slot fit on first order"
+"Piezo buzzer KLJ-1102",BZ1,1,C201047,LCSC,Back,"AST1109MLTRQ substitute per KLOR docs; low stock, order early"
+"EC11 rotary encoder w/ switch (Alps EC11E15244G1)",SW18,1,C370970,LCSC,Back,"20mm D-cut shaft (5mm taller than orig spec) - use D-bore push-on or set-screw knob; 30 det/15 pulse"
+"SSD1306 128x64 OLED module 0.96in 4-pin I2C",OLED1,1,-,User-supplied,Back,
+"Controller nice!nano-compatible (nRF52840, Pro Micro pinout)",U1,1,-,User-supplied,Back,"Socketed"
+"MX switches",SW1-SW21 keys,17,-,User-supplied,Back,"Hot-swap via sockets"
+"Trackball level converter",J3,0,-,DNP,-,"Marked DNP in schematic"

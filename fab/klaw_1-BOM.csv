@@ -1,0 +1,8 @@
+Comment,Designator,Footprint,JLCPCB Part #（optional）
+1N4148W switching diode,"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D12,D13,D14,D15,D16,D18,D20,D21",SOD-123,C81598
+MSK12C02 slide switch,PSW1,MSK-12C02 SMD,C431540
+Alps SKRTLAE010 reset switch,RSW1,SMD side-actuated tact,C110293
+JST S2B-PH-K-S battery connector,BT1,JST PH 2p horizontal THT,C173752
+PJ-320A-4P TRRS jack,J1,3.5mm TRRS THT,C18185602
+KLJ-1102 piezo buzzer,BZ1,SMD 11x9mm,C201047
+EC11E15244G1 rotary encoder,SW18,EC11 THT,C370970
