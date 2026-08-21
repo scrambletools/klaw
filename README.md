@@ -34,13 +34,13 @@ both hands.
 
 ## Building one
 
-**1. Order the PCBs.** Upload `fab/klaw_1-gerbers.zip` to [JLCPCB](https://jlcpcb.com)
-(2-layer, 1.6 mm). For machine assembly add `fab/klaw_1-BOM.csv` and
-`fab/klaw_1-CPL.csv` — that covers the diodes, encoder, buzzer, TRRS jack,
-battery connector, and both small switches. The assembly files populate the
-**front face** (right half); build the left half by populating the mirrored back
-face of another copy of the same board (hand-solder, or place a second assembly
-order with the bottom-side variant).
+**1. Order the PCBs.** Both halves use the **same board** — upload
+`fab/klaw_1-gerbers.zip` to [JLCPCB](https://jlcpcb.com) (2-layer, 1.6 mm). For
+machine assembly place **two orders with the same gerbers**: the right half
+assembles on the **Top** side (`fab/right-half/`), the left half assembles the
+same parts on the **Bottom** side (`fab/left-half/`). Each covers the diodes,
+encoder, buzzer, TRRS jack, battery connector, and both small switches — see
+`fab/README.md` for the exact flow and a placement-review checklist.
 
 **2. Hand-solder the per-key parts.** The RGB LEDs (SK6812MINI, LCSC `C2886570`)
 drop into the plated windows from the back — lens facing through the board — and
