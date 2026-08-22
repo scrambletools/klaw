@@ -22,3 +22,8 @@ pcb/klaw_1/KLOR_1-3_gerbers.zip
 # board-level STEP exports (footprint models in KLOR.3dshapes stay tracked)
 /*.step
 /*.stp
+
+# Plasticity churn — keep only the main model (case/klaw.plasticity);
+# ignore autosave and rolling history snapshots
+*_autosave.plasticity
+case/plasticity/
