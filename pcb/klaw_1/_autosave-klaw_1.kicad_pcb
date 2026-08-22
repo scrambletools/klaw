@@ -91,7 +91,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(grid_origin 90.275 108.75)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
@@ -1323,7 +1322,7 @@
 			(uuid "411ea838-bd5f-4ebc-ab22-1e4d3f04d70d")
 		)
 		(pad "" np_thru_hole circle
-			(at 3.81 -2.540005 356)
+			(at 3.81 -2.540006 356)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
@@ -1448,7 +1447,7 @@
 			(uuid "5f5892d8-443b-4ecc-8388-d20a3912276a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3652,7 +3651,7 @@
 			(uuid "586bf9a0-d9a5-4abc-9608-6c89fe88f3bc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4880,7 +4879,7 @@
 			(uuid "83ea09b7-0e1e-458f-b2ea-936e93c21ae4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6939,7 +6938,7 @@
 			(uuid "13cd2d71-67f9-460f-9f42-df8c5c4df39f")
 		)
 		(pad "" np_thru_hole circle
-			(at 3.81 -2.540005 356)
+			(at 3.81 -2.540006 356)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
@@ -7064,7 +7063,7 @@
 			(uuid "7e40c5ad-b864-47ab-b03d-cb4576eea28e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8174,7 +8173,7 @@
 			(uuid "94e29aac-d40c-48c4-93bb-18acf9b0e53e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11375,7 +11374,7 @@
 			(uuid "651a1a66-f774-4856-9f0f-8ca4f329baf3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13573,7 +13572,7 @@
 			(uuid "7a6a6fa3-da1a-44a1-8d2a-430fbe496fc6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15558,7 +15557,7 @@
 			(uuid "afed9de4-ee9d-4005-9e80-a78f361a9c00")
 		)
 		(pad "" np_thru_hole circle
-			(at 3.81 -2.540005 356)
+			(at 3.81 -2.540006 356)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
@@ -15683,7 +15682,7 @@
 			(uuid "ef29be16-71ab-47d0-981c-f81861bfb516")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18768,7 +18767,7 @@
 			(uuid "1f3396ad-3d62-486a-a0ae-a4a8c920a441")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20127,7 +20126,7 @@
 			(uuid "b835748a-0e3a-4cc3-ad0e-5ee952960d1e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21479,7 +21478,7 @@
 			(uuid "209835c4-a9fe-48ec-8e77-767e9d6edc89")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23069,7 +23068,7 @@
 			(uuid "1514c451-3fbc-4b88-b741-a8d7e56606b7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24180,7 +24179,7 @@
 			(uuid "2e7c1e66-7534-4bc3-8c99-d6d2c88e2620")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25947,7 +25946,7 @@
 			(uuid "7134a510-ffee-45d7-bdc4-6d103d555c40")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28395,7 +28394,7 @@
 			(uuid "2e5dd40a-875c-4537-bc17-e5837e99ce6c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29507,7 +29506,7 @@
 			(uuid "051358bb-4577-43d3-9985-c4ae47fab722")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31455,7 +31454,7 @@
 			(uuid "820daa0b-e72e-4a45-ada4-f38ec16a5b64")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
 			(offset
 				(xyz 0 0 0)
 			)

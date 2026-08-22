@@ -106,7 +106,7 @@
   (pad "5" smd rect (at 7 -2.58 180) (size 2.3 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a79a163f-a368-4137-a08a-e7098d1ec564))
   (pad "6" smd rect (at -5.7 -5.12 180) (size 2.3 2) (layers "F.Cu" "F.Mask") (tstamp 72905c2a-ae59-44f6-8ee2-983a561477e8))
   (pad "6" smd rect (at 5.7 -5.12 180) (size 2.3 2) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 96286da7-a17a-4ac2-88d2-fe1415331c6b))
-  (model "${KIPRJMOD}/KLOR.3dshapes/SW_MX_simplified.step"
+  (model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
