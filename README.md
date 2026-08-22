@@ -76,4 +76,5 @@ by GEIGEIGEIST — the layout, reversible-footprint approach, and much of the PC
 heritage come from that project. Licensed under **GPL-3.0**, same as KLOR; see
 `LICENSE.md`. The Cherry MX switch 3D model comes from the
 [kiswitch keyswitch-kicad-library](https://github.com/kiswitch/keyswitch-kicad-library)
-(MIT / CC-BY-SA 4.0).
+(MIT / CC-BY-SA 4.0); the nRF52840 SuperMini controller model comes from
+[shnaps/garden36](https://github.com/shnaps/garden36) (MIT).
