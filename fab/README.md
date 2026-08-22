@@ -41,11 +41,13 @@ Place **two PCBA orders**, both using the **same** `klaw_1-gerbers.zip`:
 JLCPCB's minimum order is 5 boards / 2 assembled, so a typical pair order is:
 2× assembled right + 2× assembled left, with spare bare boards left over.
 
-> **Check the placement preview.** The right-half CPL is bottom-side data
-> (rotations mirrored). Rotation conventions vary between tools, so in JLCPCB's
-> "parts placement" review verify each part sits on its pads — diode polarity
-> against the silkscreen arrows, and LED orientation especially — and nudge
-> rotations there if needed. JLC's DFM review also flags misalignments.
+> **Check the placement preview.** Rotation conventions vary between tools, so
+> in JLCPCB's "parts placement" review verify each part sits on its pads —
+> diode polarity against the silkscreen arrows, and LED orientation especially —
+> and nudge rotations there if needed. JLC's DFM review also flags misalignments.
+> Known intrinsic offsets already baked into these CPLs: hotswap sockets (HS*)
+> carry a +180° correction versus the footprint frame (verified against JLC's
+> preview). If regenerating, re-apply it.
 
 ## Files
 
