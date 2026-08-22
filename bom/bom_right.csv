@@ -2,11 +2,11 @@ Part,Designators,Qty,LCSC Part #,Source,Mount Face,Notes
 klaw reversible PCB (klaw_1),PCB,1,-,JLCPCB fab,-,"Same gerbers both halves; left build components on FRONT face, right build on BACK face"
 1N4148W diode SOD-123,"D1-D10,D12-D16,D18,D20,D21",18,C81598,LCSC/JLC-assembled,Back,Orientation per silkscreen arrow; through-plated pads
 SK6812MINI-EA RGB LED (reverse-mount),"SW1-SW10,SW12-SW16,SW20,SW21",17,C5378731,LCSC/JLC-assembled,Back,Factory-reversed butterfly legs; lens shines through to keycap side
-MX hotswap socket (Kailh CPG151101S11 compat),"SW1-SW10,SW12-SW16,SW20,SW21",17,C41430893,LCSC,Back,"HAND-SOLDER; HanElectricity clone, footprint-identical to Kailh"
+MX hotswap socket (Kailh CPG151101S11 compat),"SW1-SW10,SW12-SW16,SW20,SW21",17,C41430893,LCSC/JLC-assembled,Back,"JLC-assembled; HanElectricity clone, footprint-identical to Kailh"
 MSK12C02 power slide switch,PSW1,0,C431540,DNP (wired config),Front,Re-enable for battery variant; keycap side per KLOR BLE guide
 Alps SKRTLAE010 reset switch,RSW1,1,C110293,LCSC,Front,HAND-SOLDER on keycap side (KLOR 3DP guide)
 JST PH 2-pin battery connector (S2B-PH-K-S),BT1,0,C173752,DNP (wired config),Back,Re-enable for battery variant; component side per KLOR BLE guide
-TRRS jack PJ-320A-4P (MJ-4PP-9 compatible THT),J1,1,C18185602,LCSC,Front,"HAND-SOLDER: insert from keycap side, solder from component side; verify slot fit on first order"
+TRRS jack PJ-320A-4P (MJ-4PP-9 compatible THT),J1,1,C18185602,LCSC,Front,"JLC-assembled on keycap side; verify slot fit on first order"
 Piezo buzzer KLJ-1102,BZ1,1,C201047,LCSC,Front,HAND-SOLDER on keycap side; AST1109MLTRQ substitute per KLOR docs; low stock
 EC11 rotary encoder w/ switch (Alps EC11E15244G1),SW18,1,C370970,LCSC,Front,HAND-SOLDER from keycap side; 20mm D-cut shaft - D-bore push-on or set-screw knob; 30 det/15 pulse
 SSD1306 128x64 OLED module 0.96in 4-pin I2C,OLED1,1,-,User-supplied,Front,"Keycap side, covers MCU pins; tape the back"

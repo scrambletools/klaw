@@ -10,12 +10,13 @@ serves both keyboard halves — same gerbers, two assembly configurations:
 
 - **Board size:** ~128 × 97 mm
 - **Layers:** 2 (F.Cu / B.Cu), 1.6 mm
-- **Assembly per board:** 2 BOM line items, 35 placements (18 diodes +
-  17 reverse-mount SK6812MINI-EA LEDs), single-sided on the component face.
-- **Hand-soldered** (mounting sides per the KLOR build guide): hot-swap sockets
-  on the component face; TRRS, buzzer, reset switch, and encoder on the keycap
-  face. Switches, controller, and OLED are user-supplied. PSW1/BT1 are DNP
-  (wired-first config). See `../bom/` for per-side mount faces.
+- **Assembly per board:** 7 BOM line items, 56 placements, **double-sided**
+  (JLC Standard assembly). Component face: 18 diodes, 17 reverse-mount
+  SK6812MINI-EA LEDs, 17 hotswap sockets. Keycap face: TRRS, buzzer, reset
+  switch, encoder.
+- **Not assembled:** power switch + JST connector (DNP, wired-first config),
+  MCU + OLED (user-supplied, socketed), MX switches + keycaps (plug-in).
+  Nothing on the board needs a soldering iron after assembly.
 - **Orientation:** the component face is the keyboard's underside. JLCPCB's
   preview shows the right-half order populated on Bottom only and the left-half
   order on Top only — that is correct, not a mistake. Backwards-looking bottom
@@ -34,8 +35,8 @@ Place **two PCBA orders**, both using the **same** `klaw_1-gerbers.zip`:
 
 | Order | Gerbers | BOM | CPL | Assembly side |
 |---|---|---|---|---|
-| Right halves | `klaw_1-gerbers.zip` | `right-half/klaw_1-right-BOM.csv` | `right-half/klaw_1-right-CPL.csv` | Bottom |
-| Left halves | `klaw_1-gerbers.zip` | `left-half/klaw_1-left-BOM.csv` | `left-half/klaw_1-left-CPL.csv` | Top |
+| Right halves | `klaw_1-gerbers.zip` | `right-half/klaw_1-right-BOM.csv` | `right-half/klaw_1-right-CPL.csv` | both (mostly Bottom) |
+| Left halves | `klaw_1-gerbers.zip` | `left-half/klaw_1-left-BOM.csv` | `left-half/klaw_1-left-CPL.csv` | both (mostly Top) |
 
 JLCPCB's minimum order is 5 boards / 2 assembled, so a typical pair order is:
 2× assembled right + 2× assembled left, with spare bare boards left over.
@@ -60,9 +61,10 @@ JLCPCB's minimum order is 5 boards / 2 assembled, so a typical pair order is:
 - **Wired-first configuration:** the power switch (PSW1) and JST battery
   connector (BT1) are DNP — the wireless parts return in a future battery
   variant.
-- All keycap-face parts (TRRS, buzzer, reset, encoder) are hand-solder to keep
-  each order single-sided; a double-sided Standard-assembly order could place
-  them, at extra cost.
+- LED (`LED1`…) and socket (`HS1`…) placement rows use synthetic designators —
+  they share footprints with the switches; JLCPCB matches by coordinates.
+- Confirm C41430893 (sockets) and the THT parts exist in JLCPCB's parts library
+  at order time, or pre-order them into your JLC parts account.
 - The buzzer (`C201047`) runs low on stock; check availability before ordering.
 
 ## Regenerating
