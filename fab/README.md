@@ -10,7 +10,7 @@ serves both keyboard halves — same gerbers, two assembly configurations:
 
 - **Board size:** ~128 × 97 mm
 - **Layers:** 2 (F.Cu / B.Cu), 1.6 mm
-- **Assembly per board:** 7 BOM line items, 56 placements, **double-sided**
+- **Assembly per board:** 8 BOM line items, 65 placements, **double-sided**
   (JLC Standard assembly). Component face: 18 diodes, 17 reverse-mount
   SK6812MINI-EA LEDs, 17 hotswap sockets. Keycap face: TRRS, buzzer, reset
   switch, encoder.
@@ -63,6 +63,11 @@ JLCPCB's minimum order is 5 boards / 2 assembled, so a typical pair order is:
   variant.
 - LED (`LED1`…) and socket (`HS1`…) placement rows use synthetic designators —
   they share footprints with the switches; JLCPCB matches by coordinates.
+- The 0R configuration resistors (`JP*`) replace KLOR's solder jumpers: each
+  order places only its build's subset (keycap-face OLED/trackball set +
+  component-face JST-polarity pair), so OLED pin mapping and battery polarity
+  are correct per side with no hand bridging. Do NOT add the other side's JP
+  rows to an order — the JST pairs are mutually exclusive.
 - Confirm C41430893 (sockets) and the THT parts exist in JLCPCB's parts library
   at order time, or pre-order them into your JLC parts account.
 - The buzzer (`C201047`) runs low on stock; check availability before ordering.
