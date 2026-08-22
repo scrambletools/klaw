@@ -8,7 +8,7 @@ Part,Designators,Qty,LCSC Part #,Source,Mount Face,Notes
 "JST PH 2-pin battery connector (S2B-PH-K-S)",BT1,1,C173752,LCSC,Front,
 "TRRS jack PJ-320A-4P (MJ-4PP-9 compatible THT)",J1,1,C18185602,LCSC,Front,"Verify slot fit on first order"
 "Piezo buzzer KLJ-1102",BZ1,1,C201047,LCSC,Front,"AST1109MLTRQ substitute per KLOR docs; low stock, order early"
-"EC11 rotary encoder w/ switch (Alps EC11E15244G1)",SW18,1,C370970,LCSC,Front,"20mm D-cut shaft (5mm taller than orig spec) - use D-bore push-on or set-screw knob; 30 det/15 pulse"
+"EC11 rotary encoder w/ switch (Alps EC11E15244G1)",SW18,1,C370970,LCSC,Front,"HAND-SOLDER from keycap side (knob opposite the component face); 20mm D-cut shaft - use D-bore push-on or set-screw knob; 30 det/15 pulse"
 "SSD1306 128x64 OLED module 0.96in 4-pin I2C",OLED1,1,-,User-supplied,Front,
 "Controller nice!nano-compatible (nRF52840, Pro Micro pinout)",U1,1,-,User-supplied,Front,"Socketed"
 "MX switches",SW1-SW21 keys,17,-,User-supplied,Front,"Hot-swap via sockets"

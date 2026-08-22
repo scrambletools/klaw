@@ -42,8 +42,8 @@ same parts on the **Bottom** side (`fab/left-half/`). Each covers the diodes,
 encoder, buzzer, TRRS jack, battery connector, and both small switches — see
 `fab/README.md` for the exact flow and a placement-review checklist.
 
-**2. Hand-solder the hot-swap sockets** (LCSC `C41430893`) — the one remaining
-hand-solder job. The per-key RGB LEDs (SK6812MINI-EA, LCSC `C5378731`) are
+**2. Hand-solder the hot-swap sockets** (LCSC `C41430893`) on the component face,
+and the EC11 encoder from the keycap side (its knob faces opposite the components). The per-key RGB LEDs (SK6812MINI-EA, LCSC `C5378731`) are
 factory-reversed parts that JLCPCB machine-assembles along with everything else.
 Exact part numbers, prices, and per-half quantities are in `bom/`.
 
