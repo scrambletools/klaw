@@ -793,6 +793,134 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KLORlib:R_0R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0R"
+				(at 0.254 -1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KLOR:R_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/product-detail/C21189.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0R configuration resistor (replaces solder jumper)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0R_0_1"
+				(rectangle
+					(start -1.524 0.635)
+					(end 1.524 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.016)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.016)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KLORlib:Device_Jumper_NO_Small"
 			(pin_numbers
 				(hide yes)
@@ -10744,7 +10872,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 100.584 171.958 0)
 		(unit 1)
 		(body_style 1)
@@ -10764,7 +10892,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 100.584 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -10775,7 +10903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 100.584 171.958 0)
 			(hide yes)
 			(show_name no)
@@ -10799,6 +10927,72 @@
 		)
 		(property "Description" ""
 			(at 100.584 171.958 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 100.584 171.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 100.584 171.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 100.584 171.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 100.584 171.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 100.584 171.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 100.584 171.958 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11436,7 +11630,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 156.972 191.008 0)
 		(unit 1)
 		(body_style 1)
@@ -11456,7 +11650,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 156.972 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -11467,7 +11661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 156.972 191.008 0)
 			(hide yes)
 			(show_name no)
@@ -11491,6 +11685,72 @@
 		)
 		(property "Description" ""
 			(at 156.972 191.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 156.972 191.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 156.972 191.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 156.972 191.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 156.972 191.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 156.972 191.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 156.972 191.008 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13064,7 +13324,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 100.33 179.578 0)
 		(unit 1)
 		(body_style 1)
@@ -13084,7 +13344,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 100.33 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -13095,7 +13355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 100.33 179.578 0)
 			(hide yes)
 			(show_name no)
@@ -13119,6 +13379,72 @@
 		)
 		(property "Description" ""
 			(at 100.33 179.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 100.33 179.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 100.33 179.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 100.33 179.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 100.33 179.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 100.33 179.578 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 100.33 179.578 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15146,7 +15472,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 156.972 185.928 0)
 		(unit 1)
 		(body_style 1)
@@ -15166,7 +15492,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 156.972 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -15177,7 +15503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 156.972 185.928 0)
 			(hide yes)
 			(show_name no)
@@ -15201,6 +15527,72 @@
 		)
 		(property "Description" ""
 			(at 156.972 185.928 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 156.972 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 156.972 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 156.972 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 156.972 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 156.972 185.928 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 156.972 185.928 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15574,7 +15966,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 125.222 152.908 0)
 		(unit 1)
 		(body_style 1)
@@ -15594,7 +15986,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 125.222 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15605,7 +15997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 125.222 152.908 0)
 			(hide yes)
 			(show_name no)
@@ -15629,6 +16021,72 @@
 		)
 		(property "Description" ""
 			(at 125.222 152.908 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 125.222 152.908 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 125.222 152.908 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 125.222 152.908 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 125.222 152.908 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 125.222 152.908 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 125.222 152.908 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15865,7 +16323,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 156.972 177.546 0)
 		(unit 1)
 		(body_style 1)
@@ -15885,7 +16343,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 156.972 174.498 0)
 			(hide yes)
 			(show_name no)
@@ -15896,7 +16354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 156.972 177.546 0)
 			(hide yes)
 			(show_name no)
@@ -15920,6 +16378,72 @@
 		)
 		(property "Description" ""
 			(at 156.972 177.546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 156.972 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 156.972 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 156.972 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 156.972 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 156.972 177.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 156.972 177.546 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15944,7 +16468,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 100.33 183.134 0)
 		(unit 1)
 		(body_style 1)
@@ -15964,7 +16488,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 100.33 180.086 0)
 			(hide yes)
 			(show_name no)
@@ -15975,7 +16499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 100.33 183.134 0)
 			(hide yes)
 			(show_name no)
@@ -15999,6 +16523,72 @@
 		)
 		(property "Description" ""
 			(at 100.33 183.134 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 100.33 183.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 100.33 183.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 100.33 183.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 100.33 183.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 100.33 183.134 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 100.33 183.134 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16160,7 +16750,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 156.972 188.214 0)
 		(unit 1)
 		(body_style 1)
@@ -16180,7 +16770,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 156.972 185.166 0)
 			(hide yes)
 			(show_name no)
@@ -16191,7 +16781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 156.972 188.214 0)
 			(hide yes)
 			(show_name no)
@@ -16215,6 +16805,72 @@
 		)
 		(property "Description" ""
 			(at 156.972 188.214 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 156.972 188.214 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 156.972 188.214 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 156.972 188.214 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 156.972 188.214 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 156.972 188.214 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 156.972 188.214 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16528,7 +17184,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 156.972 172.466 0)
 		(unit 1)
 		(body_style 1)
@@ -16548,7 +17204,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 156.972 169.418 0)
 			(hide yes)
 			(show_name no)
@@ -16559,7 +17215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 156.972 172.466 0)
 			(hide yes)
 			(show_name no)
@@ -16583,6 +17239,72 @@
 		)
 		(property "Description" ""
 			(at 156.972 172.466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 156.972 172.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 156.972 172.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 156.972 172.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 156.972 172.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 156.972 172.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 156.972 172.466 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17033,7 +17755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 125.222 136.398 0)
 		(unit 1)
 		(body_style 1)
@@ -17053,7 +17775,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 125.222 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -17064,7 +17786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 125.222 136.398 0)
 			(hide yes)
 			(show_name no)
@@ -17088,6 +17810,72 @@
 		)
 		(property "Description" ""
 			(at 125.222 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 125.222 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 125.222 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 125.222 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 125.222 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 125.222 136.398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 125.222 136.398 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17610,7 +18398,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 125.222 131.318 0)
 		(unit 1)
 		(body_style 1)
@@ -17630,7 +18418,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 125.222 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -17641,7 +18429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 125.222 131.318 0)
 			(hide yes)
 			(show_name no)
@@ -17665,6 +18453,72 @@
 		)
 		(property "Description" ""
 			(at 125.222 131.318 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 125.222 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 125.222 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 125.222 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 125.222 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 125.222 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 125.222 131.318 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18480,7 +19334,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 100.584 167.894 0)
 		(unit 1)
 		(body_style 1)
@@ -18500,7 +19354,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 100.584 164.846 0)
 			(hide yes)
 			(show_name no)
@@ -18511,7 +19365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 100.584 167.894 0)
 			(hide yes)
 			(show_name no)
@@ -18535,6 +19389,72 @@
 		)
 		(property "Description" ""
 			(at 100.584 167.894 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 100.584 167.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 100.584 167.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 100.584 167.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 100.584 167.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 100.584 167.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 100.584 167.894 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20147,7 +21067,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 156.972 183.388 0)
 		(unit 1)
 		(body_style 1)
@@ -20167,7 +21087,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 156.972 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -20178,7 +21098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 156.972 183.388 0)
 			(hide yes)
 			(show_name no)
@@ -20202,6 +21122,72 @@
 		)
 		(property "Description" ""
 			(at 156.972 183.388 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 156.972 183.388 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 156.972 183.388 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 156.972 183.388 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 156.972 183.388 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 156.972 183.388 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 156.972 183.388 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20515,7 +21501,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 125.222 145.288 0)
 		(unit 1)
 		(body_style 1)
@@ -20535,7 +21521,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 125.222 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -20546,7 +21532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 125.222 145.288 0)
 			(hide yes)
 			(show_name no)
@@ -20570,6 +21556,72 @@
 		)
 		(property "Description" ""
 			(at 125.222 145.288 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 125.222 145.288 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 125.222 145.288 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 125.222 145.288 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 125.222 145.288 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 125.222 145.288 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 125.222 145.288 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20956,7 +22008,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 156.972 175.006 0)
 		(unit 1)
 		(body_style 1)
@@ -20976,7 +22028,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 156.972 171.958 0)
 			(hide yes)
 			(show_name no)
@@ -20987,7 +22039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 156.972 175.006 0)
 			(hide yes)
 			(show_name no)
@@ -21011,6 +22063,72 @@
 		)
 		(property "Description" ""
 			(at 156.972 175.006 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 156.972 175.006 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 156.972 175.006 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 156.972 175.006 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 156.972 175.006 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 156.972 175.006 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 156.972 175.006 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21539,7 +22657,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 156.972 180.086 0)
 		(unit 1)
 		(body_style 1)
@@ -21559,7 +22677,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 156.972 177.038 0)
 			(hide yes)
 			(show_name no)
@@ -21570,7 +22688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 156.972 180.086 0)
 			(hide yes)
 			(show_name no)
@@ -21594,6 +22712,72 @@
 		)
 		(property "Description" ""
 			(at 156.972 180.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 156.972 180.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 156.972 180.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 156.972 180.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 156.972 180.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 156.972 180.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 156.972 180.086 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21618,7 +22802,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 125.222 150.368 0)
 		(unit 1)
 		(body_style 1)
@@ -21638,7 +22822,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 125.222 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -21649,7 +22833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 125.222 150.368 0)
 			(hide yes)
 			(show_name no)
@@ -21673,6 +22857,72 @@
 		)
 		(property "Description" ""
 			(at 125.222 150.368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 125.222 150.368 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 125.222 150.368 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 125.222 150.368 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 125.222 150.368 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 125.222 150.368 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 125.222 150.368 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22790,7 +24040,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
+		(lib_id "KLORlib:R_0R")
 		(at 125.222 128.778 0)
 		(unit 1)
 		(body_style 1)
@@ -22810,7 +24060,7 @@
 				)
 			)
 		)
-		(property "Value" "Device_Jumper_NO_Small"
+		(property "Value" "0R"
 			(at 125.222 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -22821,7 +24071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:Jumper"
+		(property "Footprint" "KLOR:R_0603_1608Metric"
 			(at 125.222 128.778 0)
 			(hide yes)
 			(show_name no)
@@ -22845,6 +24095,72 @@
 		)
 		(property "Description" ""
 			(at 125.222 128.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 125.222 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 125.222 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004@100"
+			(at 125.222 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "15480500"
+			(at 125.222 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Checked" "2026-08-21"
+			(at 125.222 128.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assembly" "JLC"
+			(at 125.222 128.778 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
