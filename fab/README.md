@@ -9,7 +9,7 @@ serves both keyboard halves — same gerbers, two assembly configurations:
 
 - **Board size:** ~128 × 97 mm
 - **Layers:** 2 (F.Cu / B.Cu), 1.6 mm
-- **Assembly per board:** 7 BOM line items, 40 placements, single side —
+- **Assembly per board:** 5 BOM line items, 38 placements, single side —
   including the 17 reverse-mount SK6812MINI-EA LEDs. Hand-soldered: hot-swap
   sockets (component face) and the EC11 encoder (inserted from the keycap side —
   its knob must face away from the component face, so it is deliberately NOT in
@@ -55,9 +55,12 @@ JLCPCB's minimum order is 5 boards / 2 assembled, so a typical pair order is:
 
 ## Ordering notes
 
-- Through-hole parts (TRRS jack, JST battery connector) are included in the
-  assembly BOM — JLC assembles THT via standard service. The encoder is THT but
-  hand-soldered (opposite-side part, see above).
+- The TRRS jack (THT) is included in the assembly BOM — JLC assembles THT via
+  standard service. The encoder is THT but hand-soldered (opposite-side part,
+  see above).
+- **Wired-first configuration:** the power switch (PSW1) and JST battery
+  connector (BT1) are DNP — the wireless parts return in a future battery
+  variant.
 - The buzzer (`C201047`) runs low on stock; check availability before ordering.
 - Hot-swap sockets (`C41430893`) are the one hand-solder part — they're not in
   the assembly BOM; quantities and prices are in `../bom/`.

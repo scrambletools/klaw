@@ -10303,7 +10303,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0ec277ab-bd42-4f1a-9fcd-c9e2ceec5eea")
 		(property "Reference" "PSW1"
@@ -20680,7 +20680,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ccddbf98-ecc1-46ef-8813-fba7dd0c821c")
 		(property "Reference" "BT1"
 			(at 92.202 174.244 0)

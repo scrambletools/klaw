@@ -3,9 +3,9 @@ Part,Designators,Qty,LCSC Part #,Source,Mount Face,Notes
 "1N4148W diode SOD-123","D1-D10,D12-D16,D18,D20,D21",18,C81598,LCSC,Back,"Orientation per silkscreen arrow"
 "SK6812MINI-EA RGB LED (reverse-mount, machine-assemblable)","SW1-SW10,SW12-SW16,SW20,SW21",17,C5378731,LCSC,Back,"Factory-reversed butterfly legs; JLC Economic assembly eligible OR hand-solder; replaces plain MINI (rev2 footprint)"
 "MX hotswap socket (Kailh CPG151101S11 compat)","SW1-SW10,SW12-SW16,SW20,SW21",17,C41430893,LCSC,Back,"HAND-SOLDER (with LED, same footprint); HanElectricity clone, footprint-identical to Kailh"
-"MSK12C02 power slide switch",PSW1,1,C431540,LCSC,Back,
+"MSK12C02 power slide switch",PSW1,0,C431540,DNP (wired config),Back,
 "Alps SKRTLAE010 reset switch",RSW1,1,C110293,LCSC,Back,
-"JST PH 2-pin battery connector (S2B-PH-K-S)",BT1,1,C173752,LCSC,Back,
+"JST PH 2-pin battery connector (S2B-PH-K-S)",BT1,0,C173752,DNP (wired config),Back,
 "TRRS jack PJ-320A-4P (MJ-4PP-9 compatible THT)",J1,1,C18185602,LCSC,Back,"Verify slot fit on first order"
 "Piezo buzzer KLJ-1102",BZ1,1,C201047,LCSC,Back,"AST1109MLTRQ substitute per KLOR docs; low stock, order early"
 "EC11 rotary encoder w/ switch (Alps EC11E15244G1)",SW18,1,C370970,LCSC,Back,"HAND-SOLDER from keycap side (knob opposite the component face); 20mm D-cut shaft - use D-bore push-on or set-screw knob; 30 det/15 pulse"
