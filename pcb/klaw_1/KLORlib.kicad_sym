@@ -2489,7 +2489,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C370970"
+		(property "LCSC" "C470748"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2498,7 +2498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "2.27@1"
+		(property "Price" "2.77@1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2507,7 +2507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1775"
+		(property "Stock" "2310"
 			(at 0 0 0)
 			(effects
 				(font

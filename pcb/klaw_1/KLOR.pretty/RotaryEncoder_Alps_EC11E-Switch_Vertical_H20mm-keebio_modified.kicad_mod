@@ -452,7 +452,7 @@
 		(uuid "901440c6-db13-47da-a015-2ba76d99f614")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/KLOR.3dshapes/EC11E15244G1.step"
+	(model "${KIPRJMOD}/KLOR.3dshapes/EC11N1525404.step"
 		(offset
 			(xyz 0 0 0)
 		)
