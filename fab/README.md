@@ -45,10 +45,13 @@ JLCPCB's minimum order is 5 boards / 2 assembled, so a typical pair order is:
 > in JLCPCB's "parts placement" review verify each part sits on its pads —
 > diode polarity against the silkscreen arrows, and LED orientation especially —
 > and nudge rotations there if needed. JLC's DFM review also flags misalignments.
-> Known offsets already baked into these CPLs (verified against JLC's preview —
-> re-apply if regenerating): hotswap sockets (HS*) +180° intrinsic tape offset;
-> ALL Bottom-layer rows +180° on top of the naive (360−θ) mirror (JLC's
-> bottom-side rotation convention).
+> Known rotation rules baked into these CPLs (calibrated against JLC's preview —
+> re-apply if regenerating): hotswap sockets (HS*) carry a +180° intrinsic tape
+> offset on both layers. Bottom-layer rows additionally need +180° over the
+> naive (360−θ) mirror ONLY for parts whose footprint has shared/same pads on
+> both faces (diodes, TRRS, encoder); parts with per-face mirrored pad patterns
+> (LEDs, sockets, buzzer, reset switch) already absorb the flip in the footprint
+> and use the plain mirror.
 
 ## Files
 
