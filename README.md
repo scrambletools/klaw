@@ -12,7 +12,7 @@ both hands.
 
 - **34 keys** (17 per half), column-staggered, MX-style switches
 - **Hot-swap sockets** (Kailh CPG151101S11-compatible) — no switch soldering
-- **Per-key RGB** — SK6812MINI LEDs, reverse-mounted to glow through the board
+- **Per-key RGB** — SK6812MINI-EA LEDs, reverse-mounted to glow through the board (machine-assemblable)
 - **Wired or wireless** — TRRS between halves, or Bluetooth with a
   nice!nano-compatible controller (socketed, Pro Micro pinout); battery connector
   and power switch on board
@@ -42,10 +42,9 @@ same parts on the **Bottom** side (`fab/left-half/`). Each covers the diodes,
 encoder, buzzer, TRRS jack, battery connector, and both small switches — see
 `fab/README.md` for the exact flow and a placement-review checklist.
 
-**2. Hand-solder the per-key parts.** The RGB LEDs (SK6812MINI, LCSC `C2886570`)
-drop into the plated windows from the back — lens facing through the board — and
-the hot-swap sockets (LCSC `C41430893`) solder next to them on the same face.
-Take your time with the LEDs; they're the most heat-sensitive part on the board.
+**2. Hand-solder the hot-swap sockets** (LCSC `C41430893`) — the one remaining
+hand-solder job. The per-key RGB LEDs (SK6812MINI-EA, LCSC `C5378731`) are
+factory-reversed parts that JLCPCB machine-assembles along with everything else.
 Exact part numbers, prices, and per-half quantities are in `bom/`.
 
 **3. Add your own** MX-style switches (hot-swap, no soldering), a

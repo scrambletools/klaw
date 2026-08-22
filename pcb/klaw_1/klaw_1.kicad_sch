@@ -6300,6 +6300,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 135.382) (xy 182.88 135.382)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a3c68a-a7c7-42d8-9813-309ea0d496e7")
+	)
+	(wire
+		(pts
 			(xy 87.63 169.926) (xy 95.758 169.926)
 		)
 		(stroke
@@ -7936,7 +7946,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 196.596 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -7947,7 +7957,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 196.596 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -7958,7 +7968,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 196.596 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -8013,7 +8023,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 196.596 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -8024,7 +8034,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 196.596 123.952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 196.596 123.952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 196.596 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -8126,7 +8158,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 196.342 146.304 0)
 			(hide yes)
 			(show_name no)
@@ -8137,7 +8169,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 196.342 146.304 0)
 			(hide yes)
 			(show_name no)
@@ -8148,7 +8180,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 196.342 146.304 0)
 			(hide yes)
 			(show_name no)
@@ -8203,7 +8235,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 196.342 146.304 0)
 			(hide yes)
 			(show_name no)
@@ -8214,7 +8246,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 196.342 146.304 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 196.342 146.304 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 196.342 146.304 0)
 			(hide yes)
 			(show_name no)
@@ -8892,7 +8946,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 211.328 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -8903,7 +8957,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 211.328 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -8914,7 +8968,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 211.328 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -8969,7 +9023,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 211.328 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -8980,7 +9034,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 211.328 67.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 211.328 67.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 211.328 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -9082,7 +9158,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 193.548 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -9093,7 +9169,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 193.548 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -9104,7 +9180,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 193.548 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -9159,7 +9235,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 193.548 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -9170,7 +9246,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 193.548 67.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 193.548 67.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 193.548 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -9836,7 +9934,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 235.966 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -9847,7 +9945,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 235.966 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -9858,7 +9956,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 235.966 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -9913,7 +10011,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 235.966 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -9924,7 +10022,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 235.966 123.952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 235.966 123.952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 235.966 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -10026,7 +10146,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 211.328 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -10037,7 +10157,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 211.328 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -10048,7 +10168,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 211.328 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -10103,7 +10223,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 211.328 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -10114,7 +10234,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 211.328 39.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 211.328 39.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 211.328 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -10363,7 +10505,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 246.888 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -10374,7 +10516,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 246.888 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -10385,7 +10527,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 246.888 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -10440,7 +10582,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 246.888 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -10451,7 +10593,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 246.888 67.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 246.888 67.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 246.888 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -11027,7 +11191,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 222.504 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -11038,7 +11202,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 222.504 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -11049,7 +11213,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 222.504 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -11104,7 +11268,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 222.504 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -11115,7 +11279,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 222.504 123.952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 222.504 123.952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 222.504 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -11529,7 +11715,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 229.108 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -11540,7 +11726,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 229.108 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -11551,7 +11737,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 229.108 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -11606,7 +11792,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 229.108 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -11617,7 +11803,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 229.108 67.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 229.108 67.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 229.108 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -11719,7 +11927,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 182.88 146.304 0)
 			(hide yes)
 			(show_name no)
@@ -11730,7 +11938,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 182.88 146.304 0)
 			(hide yes)
 			(show_name no)
@@ -11741,7 +11949,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 182.88 146.304 0)
 			(hide yes)
 			(show_name no)
@@ -11796,7 +12004,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 182.88 146.304 0)
 			(hide yes)
 			(show_name no)
@@ -11807,7 +12015,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 182.88 146.304 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 182.88 146.304 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 182.88 146.304 0)
 			(hide yes)
 			(show_name no)
@@ -12334,7 +12564,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 222.504 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -12345,7 +12575,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 222.504 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -12356,7 +12586,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 222.504 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -12411,7 +12641,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 222.504 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -12422,7 +12652,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 222.504 135.128 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 222.504 135.128 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 222.504 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -12954,7 +13206,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 175.768 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -12965,7 +13217,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 175.768 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -12976,7 +13228,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 175.768 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -13031,7 +13283,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 175.768 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -13042,7 +13294,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 175.768 53.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 175.768 53.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 175.768 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -13358,7 +13632,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 222.25 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -13369,7 +13643,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 222.25 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -13380,7 +13654,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 222.25 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -13435,7 +13709,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 222.25 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -13446,7 +13720,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 222.25 112.776 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 222.25 112.776 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 222.25 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -13625,7 +13921,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 248.92 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -13636,7 +13932,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 248.92 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -13647,7 +13943,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 248.92 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -13702,7 +13998,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 248.92 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -13713,7 +14009,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 248.92 112.776 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 248.92 112.776 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 248.92 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -14031,7 +14349,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 235.712 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -14042,7 +14360,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 235.712 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -14053,7 +14371,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 235.712 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -14108,7 +14426,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 235.712 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -14119,7 +14437,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 235.712 112.776 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 235.712 112.776 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 235.712 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -14579,7 +14919,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 209.55 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -14590,7 +14930,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 209.55 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -14601,7 +14941,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 209.55 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -14656,7 +14996,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 209.55 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -14667,7 +15007,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 209.55 123.952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 209.55 123.952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 209.55 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -15354,7 +15716,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 193.548 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -15365,7 +15727,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 193.548 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -15376,7 +15738,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 193.548 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -15431,7 +15793,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 193.548 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -15442,7 +15804,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 193.548 53.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 193.548 53.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 193.548 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -15995,7 +16379,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 229.108 81.026 0)
 			(hide yes)
 			(show_name no)
@@ -16006,7 +16390,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 229.108 81.026 0)
 			(hide yes)
 			(show_name no)
@@ -16017,7 +16401,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 229.108 81.026 0)
 			(hide yes)
 			(show_name no)
@@ -16072,7 +16456,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 229.108 81.026 0)
 			(hide yes)
 			(show_name no)
@@ -16083,7 +16467,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 229.108 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 229.108 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 229.108 81.026 0)
 			(hide yes)
 			(show_name no)
@@ -16401,7 +16807,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 235.966 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -16412,7 +16818,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 235.966 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -16423,7 +16829,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 235.966 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -16478,7 +16884,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 235.966 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -16489,7 +16895,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 235.966 135.128 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 235.966 135.128 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 235.966 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -16747,7 +17175,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 229.108 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -16758,7 +17186,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 229.108 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -16769,7 +17197,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 229.108 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -16824,7 +17252,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 229.108 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -16835,7 +17263,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 229.108 53.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 229.108 53.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 229.108 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -17011,7 +17461,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 246.888 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -17022,7 +17472,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 246.888 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -17033,7 +17483,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 246.888 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -17088,7 +17538,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 246.888 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -17099,7 +17549,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 246.888 53.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 246.888 53.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 246.888 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -17280,7 +17752,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 209.296 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -17291,7 +17763,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 209.296 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -17302,7 +17774,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 209.296 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -17357,7 +17829,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 209.296 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -17368,7 +17840,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 209.296 112.776 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 209.296 112.776 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 209.296 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -17470,7 +17964,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 193.548 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -17481,7 +17975,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 193.548 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -17492,7 +17986,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 193.548 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -17547,7 +18041,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 193.548 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -17558,7 +18052,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 193.548 39.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 193.548 39.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 193.548 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -17660,7 +18176,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 175.768 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -17671,7 +18187,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 175.768 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -17682,7 +18198,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 175.768 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -17737,7 +18253,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 175.768 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -17748,7 +18264,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 175.768 39.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 175.768 39.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 175.768 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -18299,7 +18837,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 246.888 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -18310,7 +18848,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 246.888 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -18321,7 +18859,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 246.888 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -18376,7 +18914,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 246.888 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -18387,7 +18925,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 246.888 39.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 246.888 39.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 246.888 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -18566,7 +19126,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 249.174 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -18577,7 +19137,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 249.174 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -18588,7 +19148,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 249.174 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -18643,7 +19203,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 249.174 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -18654,7 +19214,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 249.174 123.952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 249.174 123.952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 249.174 123.952 0)
 			(hide yes)
 			(show_name no)
@@ -18833,7 +19415,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 196.342 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -18844,7 +19426,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 196.342 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -18855,7 +19437,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 196.342 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -18910,7 +19492,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 196.342 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -18921,7 +19503,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 196.342 112.776 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 196.342 112.776 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 196.342 112.776 0)
 			(hide yes)
 			(show_name no)
@@ -19394,7 +19998,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 209.55 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -19405,7 +20009,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 209.55 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -19416,7 +20020,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 209.55 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -19471,7 +20075,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 209.55 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -19482,7 +20086,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 209.55 135.128 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 209.55 135.128 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 209.55 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -19663,7 +20289,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 175.768 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -19674,7 +20300,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 175.768 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -19685,7 +20311,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 175.768 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -19740,7 +20366,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 175.768 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -19751,7 +20377,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 175.768 67.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 175.768 67.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 175.768 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -20602,85 +21250,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Device_Jumper_NO_Small")
-		(at 180.34 135.382 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d8d24562-939b-424e-91cf-c417b4132938")
-		(property "Reference" "JP26"
-			(at 180.34 133.604 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Device_Jumper_NO_Small"
-			(at 180.34 132.334 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KLOR:Jumper"
-			(at 180.34 135.382 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 135.382 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 135.382 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "07663b95-47c8-4437-b579-970a11b53ec4")
-		)
-		(pin "2"
-			(uuid "60661faf-30ba-4b2f-8a07-ad3b781271df")
-		)
-		(instances
-			(project "klaw_1"
-				(path "/3934cdea-42c8-4ab1-b1be-2c4978ab08ae"
-					(reference "JP26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 242.57 142.24 0)
 		(unit 1)
@@ -20821,7 +21390,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 211.328 81.026 0)
 			(hide yes)
 			(show_name no)
@@ -20832,7 +21401,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 211.328 81.026 0)
 			(hide yes)
 			(show_name no)
@@ -20843,7 +21412,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 211.328 81.026 0)
 			(hide yes)
 			(show_name no)
@@ -20898,7 +21467,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 211.328 81.026 0)
 			(hide yes)
 			(show_name no)
@@ -20909,7 +21478,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 211.328 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 211.328 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 211.328 81.026 0)
 			(hide yes)
 			(show_name no)
@@ -21246,7 +21837,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 249.174 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -21257,7 +21848,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 249.174 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -21268,7 +21859,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 249.174 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -21323,7 +21914,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 249.174 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -21334,7 +21925,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 249.174 135.128 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 249.174 135.128 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 249.174 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -21665,7 +22278,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 196.596 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -21676,7 +22289,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 196.596 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -21687,7 +22300,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 196.596 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -21742,7 +22355,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 196.596 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -21753,7 +22366,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 196.596 135.128 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 196.596 135.128 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 196.596 135.128 0)
 			(hide yes)
 			(show_name no)
@@ -21855,7 +22490,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 211.328 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -21866,7 +22501,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 211.328 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -21877,7 +22512,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 211.328 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -21932,7 +22567,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 211.328 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -21943,7 +22578,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 211.328 53.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 211.328 53.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 211.328 53.086 0)
 			(hide yes)
 			(show_name no)
@@ -22353,7 +23010,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 229.108 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -22364,7 +23021,7 @@
 				)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 229.108 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -22375,7 +23032,7 @@
 				)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 229.108 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -22430,7 +23087,7 @@
 				)
 			)
 		)
-		(property "Checked" "2026-08-20"
+		(property "Checked" "2026-08-21"
 			(at 229.108 39.116 0)
 			(hide yes)
 			(show_name no)
@@ -22441,7 +23098,29 @@
 				)
 			)
 		)
-		(property "Assembly" "Hand-solder"
+		(property "Assembly" "JLC"
+			(at 229.108 39.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
+			(at 229.108 39.116 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Socket_Assembly" "Hand-solder"
 			(at 229.108 39.116 0)
 			(hide yes)
 			(show_name no)

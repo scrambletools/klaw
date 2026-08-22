@@ -1,7 +1,7 @@
 Part,Designators,Qty,LCSC Part #,Source,Mount Face,Notes
 "klaw reversible PCB (klaw_1)",PCB,1,-,JLCPCB fab,-,"Same gerbers as left half; right build populates the FRONT (F.Cu) face — CONFIRM face assignment against case design"
 "1N4148W diode SOD-123","D1-D10,D12-D16,D18,D20,D21",18,C81598,LCSC,Front,"Orientation per silkscreen arrow"
-"SK6812MINI RGB LED (plain 3535)","SW1-SW10,SW12-SW16,SW20,SW21",17,C2886570,LCSC,Front,"HAND-SOLDER (reverse-mount through window); NOT Mini-E; C5183448 = black-body alt"
+"SK6812MINI-EA RGB LED (reverse-mount, machine-assemblable)","SW1-SW10,SW12-SW16,SW20,SW21",17,C5378731,LCSC,Front,"Factory-reversed butterfly legs; JLC Economic assembly eligible OR hand-solder; replaces plain MINI (rev2 footprint)"
 "MX hotswap socket (Kailh CPG151101S11 compat)","SW1-SW10,SW12-SW16,SW20,SW21",17,C41430893,LCSC,Front,"HAND-SOLDER (with LED, same footprint); HanElectricity clone, footprint-identical to Kailh"
 "MSK12C02 power slide switch",PSW1,1,C431540,LCSC,Front,
 "Alps SKRTLAE010 reset switch",RSW1,1,C110293,LCSC,Front,

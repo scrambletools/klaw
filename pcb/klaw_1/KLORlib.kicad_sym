@@ -803,7 +803,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886570"
+		(property "LCSC" "C5378731"
 			(at 0 0 0)
 			(effects
 				(font
@@ -812,7 +812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.0972@5"
+		(property "Price" "0.0977@5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -821,7 +821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "37840"
+		(property "Stock" "16625"
 			(at 0 0 0)
 			(effects
 				(font
@@ -867,6 +867,15 @@
 			)
 		)
 		(property "Checked" "2026-08-20"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK6812MINI-EA"
 			(at 0 0 0)
 			(effects
 				(font

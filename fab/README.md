@@ -9,9 +9,13 @@ serves both keyboard halves — same gerbers, two assembly configurations:
 
 - **Board size:** ~128 × 97 mm
 - **Layers:** 2 (F.Cu / B.Cu), 1.6 mm
-- **Assembly per board:** 7 BOM line items, 24 placements, single side;
-  LEDs + hot-swap sockets hand-soldered; switches, controller, and OLED
-  user-supplied (see `../bom/`).
+- **Assembly per board:** 8 BOM line items, 41 placements, single side —
+  including the 17 reverse-mount SK6812MINI-EA LEDs; only the hot-swap sockets
+  are hand-soldered; switches, controller, and OLED user-supplied (see `../bom/`).
+- LED placement rows use synthetic designators (`LED1`…`LED21`, numbered by key)
+  since the LEDs share footprints with the switches; JLCPCB matches them by
+  coordinates. The LED bodies protrude ~0.2 mm past the far face — JLC may add
+  an assembly-fixture charge for this.
 
 > These files are committed from the design in `../pcb/klaw_1/`; don't hand-edit
 > them. Regenerate with `kicad-cli` after design changes.
@@ -49,10 +53,8 @@ JLCPCB's minimum order is 5 boards / 2 assembled, so a typical pair order is:
 - Through-hole parts (TRRS jack, JST battery connector, encoder) are included in
   the assembly BOM — JLC assembles THT via standard service.
 - The buzzer (`C201047`) runs low on stock; check availability before ordering.
-- Per-key LEDs (`C2886570`) and hot-swap sockets (`C41430893`) are deliberately
-  **not** in the assembly BOM — they're reverse-mount parts to hand-solder on
-  the same face as the rest of that half's components; quantities and prices
-  are in `../bom/`.
+- Hot-swap sockets (`C41430893`) are the one hand-solder part — they're not in
+  the assembly BOM; quantities and prices are in `../bom/`.
 
 ## Regenerating
 
