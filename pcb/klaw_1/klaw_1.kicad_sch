@@ -8782,7 +8782,7 @@
 				)
 			)
 		)
-		(property "Assembly" "JLC"
+		(property "Assembly" "Hand-solder"
 			(at 81.788 102.108 0)
 			(hide yes)
 			(show_name no)
@@ -11017,7 +11017,7 @@
 				)
 			)
 		)
-		(property "Assembly" "JLC"
+		(property "Assembly" "Hand-solder"
 			(at 111.76 39.624 0)
 			(hide yes)
 			(show_name no)
@@ -12260,7 +12260,7 @@
 				)
 			)
 		)
-		(property "Assembly" "JLC"
+		(property "Assembly" "Hand-solder"
 			(at 40.132 105.664 0)
 			(hide yes)
 			(show_name no)

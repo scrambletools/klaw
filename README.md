@@ -37,13 +37,15 @@ both hands.
 **1. Order the PCBs.** Both halves use the **same board** — upload
 `fab/klaw_1-gerbers.zip` to [JLCPCB](https://jlcpcb.com) (2-layer, 1.6 mm). For
 machine assembly place **two orders with the same gerbers**: the right half
-assembles on the **Top** side (`fab/right-half/`), the left half assembles the
-same parts on the **Bottom** side (`fab/left-half/`). Each covers the diodes,
-encoder, buzzer, TRRS jack, battery connector, and both small switches — see
-`fab/README.md` for the exact flow and a placement-review checklist.
+assembles on the **Bottom** side (`fab/right-half/`), the left half on the
+**Top** side (`fab/left-half/`). Each covers the diodes and per-key RGB LEDs —
+see `fab/README.md` for the exact flow and a placement-review checklist.
 
-**2. Hand-solder the hot-swap sockets** (LCSC `C41430893`) on the component face,
-and the EC11 encoder from the keycap side (its knob faces opposite the components). The per-key RGB LEDs (SK6812MINI-EA, LCSC `C5378731`) are
+**2. Hand-solder the remaining parts** (mounting sides follow the
+[KLOR build guide](https://github.com/GEIGEIGEIST/KLOR/blob/main/docs/buildguide_3DP.md)):
+hot-swap sockets (LCSC `C41430893`) on the component face; TRRS jack, buzzer,
+reset switch, and EC11 encoder on the keycap face. Mount-face tables per half
+are in `bom/`. The per-key RGB LEDs (SK6812MINI-EA, LCSC `C5378731`) are
 factory-reversed parts that JLCPCB machine-assembles along with everything else.
 Exact part numbers, prices, and per-half quantities are in `bom/`.
 
