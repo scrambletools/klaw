@@ -875,7 +875,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "klaw_1.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -148,7 +148,7 @@
 		(uuid "42010d86-f5d2-469e-a582-6160779df48f")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/KLOR.3dshapes/SSD1306_module_simplified.step"
+	(model "${KIPRJMOD}/KLOR.3dshapes/SSD1306_module_male_header.step"
 		(offset
 			(xyz 0 10.5 0)
 		)
