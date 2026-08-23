@@ -129,7 +129,7 @@
 			(outputdirectory "gerbers/")
 		)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "05f6cf13-31f7-443a-8e93-41079e11f9a5")
 		(at 83.825 108.820692 -90)
@@ -351,7 +351,7 @@
 			(uuid "2cd4200f-d3e2-47d7-9e04-6340e4870ffc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -363,7 +363,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "10df6e07-cc84-4b25-a71b-19a35b4b40da")
 		(at 180.883028 70.026882 176)
@@ -1431,7 +1431,7 @@
 			(uuid "5f5892d8-443b-4ecc-8388-d20a3912276a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1442,7 +1442,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -1453,7 +1453,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -1465,7 +1465,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:MountingHole_3.2mm_M3"
+	(footprint "klaw:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "12047fa6-c6aa-4362-b489-c91c0b242675")
 		(at 188.525 116.25)
@@ -1576,7 +1576,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "183e4140-50cb-43bd-878f-a70d15c721ec")
@@ -1803,7 +1803,7 @@
 			(uuid "223b1bf5-aeb0-4409-ae26-7a05947090b1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -1815,7 +1815,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "1b15444f-374f-4d35-b787-da86cdf65834")
@@ -2042,7 +2042,7 @@
 			(uuid "6ae5519f-a82c-423d-89f5-15a3d808e9b8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -2054,7 +2054,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "1b340de7-7930-4457-8235-56ebe4956894")
@@ -2281,7 +2281,7 @@
 			(uuid "05c77619-1ce3-4723-b67e-0d019cbf4a4c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -2293,7 +2293,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2182a114-2363-4f7e-bef9-75c2e1ea9c76")
 		(at 92.621 101.802 -90)
@@ -2515,7 +2515,7 @@
 			(uuid "57a1dffe-23ec-4be5-9261-f41914073183")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2527,7 +2527,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "24c1c334-4100-406a-88c9-ddba1e9d3400")
 		(at 121.897154 131.578941 -165)
@@ -3595,7 +3595,7 @@
 			(uuid "586bf9a0-d9a5-4abc-9608-6c89fe88f3bc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3606,7 +3606,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -3617,7 +3617,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -3629,7 +3629,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:MountingHole_3.2mm_M3"
+	(footprint "klaw:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "2dda5626-122d-4049-97c2-782af1d7df3b")
 		(at 85.275 67.25)
@@ -3740,7 +3740,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "2f1df4d4-ea41-4805-990c-fc64e9beb3f8")
 		(at 159.111399 78.67526 180)
@@ -4807,7 +4807,7 @@
 			(uuid "83ea09b7-0e1e-458f-b2ea-936e93c21ae4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4818,7 +4818,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -4829,7 +4829,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -4841,7 +4841,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2fb20fcc-b883-4600-86ee-f4f26f458aa6")
 		(at 137.95 117.65 90)
@@ -5063,7 +5063,7 @@
 			(uuid "b947bf12-b4f5-4bd3-98b5-9933de05b6df")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5075,7 +5075,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "32ffa73f-a777-4724-b8ef-1ba30c979ef3")
@@ -5302,7 +5302,7 @@
 			(uuid "9533c33a-6bad-4dda-b0d3-7708db91a8a9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -5314,7 +5314,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:Buzzer_Mallory_AST1109MLTRQ_reversible"
+	(footprint "klaw:Buzzer_Mallory_AST1109MLTRQ_reversible"
 		(layer "F.Cu")
 		(uuid "3ddead6f-ef8b-41ab-bf26-93a0ed440064")
 		(at 158.891506 113.397549)
@@ -5883,7 +5883,7 @@
 			(uuid "cff34251-839c-4da9-a0ad-85d0fc4e32af")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Buzzer_11x9_KLJ-1102.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Buzzer_11x9_KLJ-1102.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5895,7 +5895,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "41f99891-7a2b-4f30-b64b-8a3195d07d40")
 		(at 178.222154 108.079154 176)
@@ -6963,7 +6963,7 @@
 			(uuid "7e40c5ad-b864-47ab-b03d-cb4576eea28e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6974,7 +6974,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -6985,7 +6985,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -6997,7 +6997,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "443b842e-cdd6-495f-a7fb-0cef04c17274")
 		(at 121.067969 90.67526 180)
@@ -8063,7 +8063,7 @@
 			(uuid "94e29aac-d40c-48c4-93bb-18acf9b0e53e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8074,7 +8074,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -8085,7 +8085,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -8097,7 +8097,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "45348c5d-a926-49b3-8d47-5d37edf4bd0e")
 		(at 140.5 117.65 90)
@@ -8319,7 +8319,7 @@
 			(uuid "f049ccda-80da-4a79-bdbd-120ab1cbdd64")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8331,7 +8331,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "46efe7bc-4d64-441a-81e3-3765f3f7798b")
@@ -8558,7 +8558,7 @@
 			(uuid "6fd9be09-73e3-42ee-ba63-d8f79e055153")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -8570,7 +8570,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified"
+	(footprint "klaw:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified"
 		(layer "F.Cu")
 		(uuid "4c07a785-0b7a-4e64-a11c-be47a0168d59")
 		(at 95.59 113.95)
@@ -9108,7 +9108,7 @@
 			(uuid "84774f2a-6971-4fa4-a1fe-c172a40ef77d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/EC11N1525404.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/EC11N1525404.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9120,7 +9120,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SSD1306_128x64OLED"
+	(footprint "klaw:SSD1306_128x64OLED"
 		(layer "F.Cu")
 		(uuid "4e1bd423-c6d5-4ebf-9526-39ea399c6ab6")
 		(at 96.62911 87.855 180)
@@ -9300,7 +9300,7 @@
 			(uuid "cb7b1369-c2c8-48ef-84f3-bb3f2070c94b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SSD1306_module_male_header.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SSD1306_module_male_header.step"
 			(offset
 				(xyz 0 10.5 0)
 			)
@@ -9312,7 +9312,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:MJ-4PP-9"
+	(footprint "klaw:MJ-4PP-9"
 		(layer "F.Cu")
 		(uuid "4e1e4056-bdea-443a-a4bc-23adfcd1398a")
 		(at 82.775 127.1 90)
@@ -9661,7 +9661,7 @@
 			(uuid "e69c376f-0145-4dad-8d57-6f88c3b8a73e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/TRRS_PJ-320A-4P_built.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/TRRS_PJ-320A-4P_built.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9673,7 +9673,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "59db2b12-ce10-4882-91dc-94988ee17a89")
@@ -9900,7 +9900,7 @@
 			(uuid "201da9bb-18a8-4628-9f72-99fe7bd0fa03")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -9912,7 +9912,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "608e4c65-ffa0-4f04-8bf0-bde0bdf70b21")
 		(at 97.66 101.802 -90)
@@ -10134,7 +10134,7 @@
 			(uuid "e3e04a0c-a620-4d6e-aba5-7ac3eec49805")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10146,7 +10146,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "61d63f1b-dbdf-4e18-9e78-d70eac21ae65")
 		(at 121.067969 109.747857 180)
@@ -11212,7 +11212,7 @@
 			(uuid "651a1a66-f774-4856-9f0f-8ca4f329baf3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11223,7 +11223,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -11234,7 +11234,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -11246,7 +11246,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:MountingHole_3.2mm_M3"
+	(footprint "klaw:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "659470a9-3c47-4d1f-a671-af353f33eb04")
 		(at 89.275 135)
@@ -11357,7 +11357,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "65ed6649-7f77-42ba-8364-96e8d5d3ec59")
 		(at 95.166 101.802 -90)
@@ -11579,7 +11579,7 @@
 			(uuid "b6b28ca1-d452-4ec0-bbab-36bb480f06d8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11591,7 +11591,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "6a8087e9-033b-453f-8e3b-66078de3dc3e")
@@ -11818,7 +11818,7 @@
 			(uuid "ade271db-05bf-4376-8f80-56d1f37eb279")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -11830,7 +11830,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "6e2c327f-1adb-487c-bc2f-8ed064fbd7b4")
 		(at 145.6 117.65 90)
@@ -12052,7 +12052,7 @@
 			(uuid "77c3608e-7555-4ea2-9cf6-8b737d2fa1ab")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12064,7 +12064,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "6ede61a1-ed6a-4986-997c-8d9262285651")
@@ -12291,7 +12291,7 @@
 			(uuid "bebef2ce-b901-44fd-84a6-49ad9d2cf651")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -12303,7 +12303,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "6fb8126a-bcf3-40a3-924c-e2fbe8dba36a")
 		(at 121.067969 71.602664 180)
@@ -13370,7 +13370,7 @@
 			(uuid "7a6a6fa3-da1a-44a1-8d2a-430fbe496fc6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13381,7 +13381,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -13392,7 +13392,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -13404,7 +13404,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:JST_PH_reversible"
+	(footprint "klaw:JST_PH_reversible"
 		(layer "F.Cu")
 		(uuid "71ae44da-897e-4857-b1e8-eec176678017")
 		(at 84.275 104.79266 90)
@@ -14384,7 +14384,7 @@
 			(uuid "79696edd-7592-489f-90be-8a4306bdb9cb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/JST_PH_S2B-PH-K.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/JST_PH_S2B-PH-K.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14396,7 +14396,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "7d512d14-3ca4-4934-b506-eb07d268c7dc")
 		(at 179.552591 89.053017 176)
@@ -15464,7 +15464,7 @@
 			(uuid "ef29be16-71ab-47d0-981c-f81861bfb516")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15475,7 +15475,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -15486,7 +15486,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -15498,7 +15498,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010_both_sides"
+	(footprint "klaw:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010_both_sides"
 		(layer "F.Cu")
 		(uuid "81797284-71c5-40f5-911f-acaa7074a32f")
 		(at 84.4 120.254766 -90)
@@ -16112,7 +16112,7 @@
 			(uuid "02e2fc12-e732-469a-8b48-f731af436614")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SKRTLAE010.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SKRTLAE010.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16124,7 +16124,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:MountingHole_3.2mm_M3"
+	(footprint "klaw:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "9f9df658-76f9-4492-a345-d51805669b23")
 		(at 193.025 79.5)
@@ -16235,7 +16235,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "a01c954e-0809-4054-92d0-67be60638c59")
@@ -16462,7 +16462,7 @@
 			(uuid "6ccd433d-6c2a-4816-b21d-4a0768a4b1bf")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -16474,7 +16474,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "a4659fb3-8982-4912-b550-39f1f35ec229")
@@ -16701,7 +16701,7 @@
 			(uuid "24c3ed88-b44c-461f-a72a-c41465279cde")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -16713,7 +16713,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "a95985e1-709a-4dea-b84c-e17e6f721bd1")
@@ -16940,7 +16940,7 @@
 			(uuid "4a075904-512b-4037-94e6-7684d38257fa")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -16952,7 +16952,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "a9749d26-c91b-4ea4-9546-8b3dcfb86483")
@@ -17179,7 +17179,7 @@
 			(uuid "8cb35ca0-0c74-4d06-95fb-e4bf935f5d64")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -17191,7 +17191,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "b6253d17-2ab0-4e86-9689-453b75c8acd8")
@@ -17418,7 +17418,7 @@
 			(uuid "4f46b8e8-9e73-4b6a-8e59-fbe50391f07b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -17430,7 +17430,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "b830f01d-0d9c-451a-9ac4-3e5744deb516")
 		(at 159.111399 59.602664 180)
@@ -18497,7 +18497,7 @@
 			(uuid "1f3396ad-3d62-486a-a0ae-a4a8c920a441")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18508,7 +18508,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -18519,7 +18519,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -18531,7 +18531,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SplitkbTentingPuckWithoutCenterHole"
+	(footprint "klaw:SplitkbTentingPuckWithoutCenterHole"
 		(layer "F.Cu")
 		(uuid "b890c18c-2cde-455c-be20-d19cbb2cd51f")
 		(at 150.148479 96.138804 -90)
@@ -18778,7 +18778,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "b90f2dfd-9639-4bac-9825-9f33089900c6")
 		(at 102.247154 139.831736 -150)
@@ -19846,7 +19846,7 @@
 			(uuid "b835748a-0e3a-4cc3-ad0e-5ee952960d1e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19857,7 +19857,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -19868,7 +19868,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -19880,7 +19880,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c0d97364-2929-4c14-88da-f4ac2ab4ebde")
 		(at 100.205 101.802 -90)
@@ -20102,7 +20102,7 @@
 			(uuid "1b87e6b2-da8d-48e8-a3fa-8d7a2a151742")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20114,7 +20114,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "c1e78faf-25fc-46b6-b4c5-f5cb445c8db9")
 		(at 196.080143 122.090396 170)
@@ -21182,7 +21182,7 @@
 			(uuid "209835c4-a9fe-48ec-8e77-767e9d6edc89")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21193,7 +21193,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -21204,7 +21204,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -21216,7 +21216,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:MountingHole_3.2mm_M3"
+	(footprint "klaw:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "c3794098-dd07-45b8-9e0c-cb2052d53713")
 		(at 112.525 130.25)
@@ -21327,7 +21327,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "c401f6df-7318-4f65-81ff-5d5de018286a")
@@ -21554,7 +21554,7 @@
 			(uuid "e452492d-035a-4361-8fab-fa3eca341746")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -21566,7 +21566,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:MountingHole_3.2mm_M3"
+	(footprint "klaw:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "c49cc46f-25e5-4da7-98e4-a992828ac967")
 		(at 146.775 82.75)
@@ -21677,7 +21677,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "c4eb404f-f3d2-4506-bf24-56396736d56f")
 		(at 140.061399 106.747857 180)
@@ -22744,7 +22744,7 @@
 			(uuid "1514c451-3fbc-4b88-b741-a8d7e56606b7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22755,7 +22755,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -22766,7 +22766,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -22778,7 +22778,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "c645efa1-5cf3-4d27-be7a-303fdbabecd8")
 		(at 140.061399 87.67526 180)
@@ -23845,7 +23845,7 @@
 			(uuid "2e7c1e66-7534-4bc3-8c99-d6d2c88e2620")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23856,7 +23856,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -23867,7 +23867,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -23879,7 +23879,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "cb42b511-5680-48c9-9ed5-a830eaedeaa5")
@@ -24106,7 +24106,7 @@
 			(uuid "b9fd7874-550d-4b45-bf4e-6567fdb916af")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -24118,7 +24118,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "ccede783-93a9-49b0-a7cd-4796a12bf000")
@@ -24345,7 +24345,7 @@
 			(uuid "10356099-7b8d-4914-a3cc-f6f01f45e7f8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -24357,7 +24357,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:custombatteryconnector_small"
+	(footprint "klaw:custombatteryconnector_small"
 		(layer "F.Cu")
 		(uuid "cd70c525-6b6a-4153-8579-824a2e955b6f")
 		(at 84.525 113.5 -90)
@@ -24516,7 +24516,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "d23aa89d-c621-4b1b-a845-8c26429d6622")
 		(at 202.703987 84.524715 170)
@@ -25584,7 +25584,7 @@
 			(uuid "7134a510-ffee-45d7-bdc4-6d103d555c40")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25595,7 +25595,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -25606,7 +25606,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -25618,7 +25618,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "d63e20b4-7f7b-4b47-b1bd-8a702315a18d")
@@ -25845,7 +25845,7 @@
 			(uuid "e9849bc8-6aec-48ee-9fbf-9516057c0506")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -25857,7 +25857,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:MSK12C02_reversible"
+	(footprint "klaw:MSK12C02_reversible"
 		(layer "F.Cu")
 		(uuid "d7df2637-4a3f-4da3-8255-101688775468")
 		(at 82.875 71.274255)
@@ -26151,7 +26151,7 @@
 			(uuid "43ab088d-55f8-46b8-986c-bb03b3caee8e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/MSK12C02.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/MSK12C02.step"
 			(offset
 				(xyz 1.35 -3.75 0)
 			)
@@ -26163,7 +26163,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:MountingHole_3.2mm_M3"
+	(footprint "klaw:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "d96967f3-555b-43f8-97ac-489e670a54e5")
 		(at 113.025 68.25)
@@ -26274,7 +26274,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "da3901ee-6116-4699-978e-f9921ebb9863")
 		(at 85.605046 108.825 -90)
@@ -26496,7 +26496,7 @@
 			(uuid "aefc27eb-12fe-4b03-82b8-4f5ea1b48fef")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26508,7 +26508,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:Diode_SOD123"
+	(footprint "klaw:Diode_SOD123"
 		(placed yes)
 		(layer "F.Cu")
 		(uuid "e232824c-3f34-4fb4-ae85-f5fad5cb082a")
@@ -26735,7 +26735,7 @@
 			(uuid "7c019622-7717-478d-9060-42f05ab2dcda")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 -1.7)
 			)
@@ -26747,7 +26747,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:lvc27_onlyInput"
+	(footprint "klaw:lvc27_onlyInput"
 		(layer "F.Cu")
 		(uuid "e52136b2-dadf-47b2-a240-302c8e3f3642")
 		(at 137.95 120.25 90)
@@ -26903,7 +26903,7 @@
 			(uuid "4dc68fda-7674-422b-b9be-2431ddeab9cd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/PinHeader_1x05_Vertical.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/PinHeader_1x05_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26915,7 +26915,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "e671ffe9-4ebb-42bd-be8d-cda9a798e138")
 		(at 159.111399 97.747857 180)
@@ -27982,7 +27982,7 @@
 			(uuid "2e5dd40a-875c-4537-bc17-e5837e99ce6c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27993,7 +27993,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -28004,7 +28004,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -28016,7 +28016,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "ec7a7d72-678f-4bfb-a06b-17a4d013c413")
 		(at 199.392065 103.307554 170)
@@ -29084,7 +29084,7 @@
 			(uuid "051358bb-4577-43d3-9985-c4ae47fab722")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29095,7 +29095,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -29106,7 +29106,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -29118,7 +29118,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:ProMicro"
+	(footprint "klaw:ProMicro"
 		(layer "F.Cu")
 		(uuid "ee4180f0-06da-451a-9a60-6ceeab1a13f1")
 		(at 97.6 80.884255)
@@ -29935,7 +29935,7 @@
 			(uuid "cd63438d-19a2-4af3-acb2-4b7b2f4b4eda")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/nRF52840_ProMicro_bottom_mount.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/nRF52840_ProMicro_bottom_mount.step"
 			(offset
 				(xyz -1.2 0.8 0)
 			)
@@ -29947,7 +29947,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:SK6812MINI_and_cherry"
+	(footprint "klaw:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "f45c8190-2f27-434c-8fbf-7d8a911faaab")
 		(at 140.061399 68.602664 180)
@@ -31014,7 +31014,7 @@
 			(uuid "820daa0b-e72e-4a45-ada4-f38ec16a5b64")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/SW_Cherry_MX_PCB.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/SW_Cherry_MX_PCB.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31025,7 +31025,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/LED_SK6812MINI-EA.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
 			(offset
 				(xyz 0 -5.5 0)
 			)
@@ -31036,7 +31036,7 @@
 				(xyz 0 0 180)
 			)
 		)
-		(model "${KIPRJMOD}/KLOR.3dshapes/Hotswap_Socket_CPG151101S11.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
 			(offset
 				(xyz -0.635 3.81 -1.6)
 			)
@@ -31048,7 +31048,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "04c17a27-5fce-4ede-a895-d729d7bf56c0")
 		(at 92.62945 101.802 -90)
@@ -31282,7 +31282,7 @@
 			(uuid "8d16786c-5319-478d-aaa0-2b1265cd99b9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31294,7 +31294,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "0ebe93dd-1761-47a4-a05e-3173b352133a")
 		(at 140.5 117.65 90)
@@ -31528,7 +31528,7 @@
 			(uuid "ae2697a6-5b6c-4144-a80c-f59c20cf01e1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31540,7 +31540,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "207c68d8-2bd6-401c-bbd5-e50fcc95bf20")
 		(at 100.21345 101.802 -90)
@@ -31774,7 +31774,7 @@
 			(uuid "63d8f5c8-fe4c-4059-b793-e3029b0342e9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31786,7 +31786,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "21f22209-0343-4f60-a7c8-8c929683dabb")
 		(at 145.6 117.65038 90)
@@ -32020,7 +32020,7 @@
 			(uuid "8e1c7203-9931-4994-8c3c-15dd9e303d95")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32032,7 +32032,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "258fcb41-7033-4835-9fdf-423793cb23b3")
 		(at 97.66845 101.802 -90)
@@ -32266,7 +32266,7 @@
 			(uuid "eda2a986-16a5-4022-b1d6-2552e61abdd1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32278,7 +32278,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "3bece509-59aa-45b1-9fd3-00955528246d")
 		(at 83.825 108.81728 -90)
@@ -32512,7 +32512,7 @@
 			(uuid "0311fc11-2032-440f-a4be-df1fd105e702")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32524,7 +32524,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "5e959deb-602d-473b-baf3-ee8fe0124e81")
 		(at 95.166 101.802 -90)
@@ -32758,7 +32758,7 @@
 			(uuid "0f16f15c-d889-430d-bdc7-8ae1f82b9520")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32770,7 +32770,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "616f0bf7-80ef-4829-a46f-035d71010d34")
 		(at 85.6 108.81728 -90)
@@ -33004,7 +33004,7 @@
 			(uuid "df586398-15bb-43ad-9ce4-b6a3c8d718d7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33016,7 +33016,7 @@
 			)
 		)
 	)
-	(footprint "KLOR:R_0603_1608Metric"
+	(footprint "klaw:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "7a5a74c0-752a-46fa-849a-f8000eb8326e")
 		(at 148.1 117.65 90)
@@ -33250,7 +33250,7 @@
 			(uuid "c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KLOR.3dshapes/R_0603_1608Metric.step"
+		(model "${KIPRJMOD}/klaw.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)

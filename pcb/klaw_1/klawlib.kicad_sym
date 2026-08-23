@@ -479,7 +479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:MJ-4PP-9"
+		(property "Footprint" "klaw:MJ-4PP-9"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3633,7 +3633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

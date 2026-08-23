@@ -12,7 +12,7 @@
 		(comment 2 "Author: Scramble")
 	)
 	(lib_symbols
-		(symbol "KLORlib:Battery_Cell"
+		(symbol "klawlib:Battery_Cell"
 			(pin_numbers
 				(hide yes)
 			)
@@ -203,7 +203,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KLORlib:Buzzer"
+		(symbol "klawlib:Buzzer"
 			(pin_names
 				(offset 0.0254)
 				(hide yes)
@@ -380,7 +380,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KLORlib:Conn_01x05"
+		(symbol "klawlib:Conn_01x05"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -625,7 +625,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KLORlib:D_Small"
+		(symbol "klawlib:D_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -793,7 +793,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KLORlib:Device_Jumper_NO_Small"
+		(symbol "klawlib:Device_Jumper_NO_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -932,7 +932,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KLORlib:MJ-4PP-9 TRRS"
+		(symbol "klawlib:MJ-4PP-9 TRRS"
 			(pin_names
 				(offset 1.016)
 			)
@@ -962,7 +962,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KLOR:MJ-4PP-9"
+			(property "Footprint" "klaw:MJ-4PP-9"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1178,7 +1178,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KLORlib:MountingHole"
+		(symbol "klawlib:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1277,7 +1277,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KLORlib:ProMicro"
+		(symbol "klawlib:ProMicro"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1786,7 +1786,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KLORlib:R_0R"
+		(symbol "klawlib:R_0R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1819,7 +1819,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KLOR:R_0603_1608Metric"
+			(property "Footprint" "klaw:R_0603_1608Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1914,7 +1914,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KLORlib:RotaryEncoder_Switch"
+		(symbol "klawlib:RotaryEncoder_Switch"
 			(pin_names
 				(offset 0.254)
 				(hide yes)
@@ -2318,7 +2318,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KLORlib:SSD1306"
+		(symbol "klawlib:SSD1306"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2491,7 +2491,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KLORlib:SW_DPDT_x2"
+		(symbol "klawlib:SW_DPDT_x2"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2739,7 +2739,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KLORlib:SW_PUSH-MX_W_LED"
+		(symbol "klawlib:SW_PUSH-MX_W_LED"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2969,7 +2969,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KLORlib:SW_Push"
+		(symbol "klawlib:SW_Push"
 			(pin_numbers
 				(hide yes)
 			)
@@ -8011,7 +8011,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 196.596 123.952 0)
 		(unit 2)
 		(body_style 1)
@@ -8042,7 +8042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 196.596 120.142 0)
 			(hide yes)
 			(show_name no)
@@ -8223,7 +8223,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 196.342 146.304 0)
 		(unit 2)
 		(body_style 1)
@@ -8254,7 +8254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 196.342 142.494 0)
 			(hide yes)
 			(show_name no)
@@ -8513,7 +8513,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 203.708 41.656 90)
 		(unit 1)
 		(body_style 1)
@@ -8547,7 +8547,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 203.708 41.656 90)
 			(hide yes)
 			(show_name no)
@@ -8727,7 +8727,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:MountingHole")
+		(lib_id "klawlib:MountingHole")
 		(at 117.602 84.074 0)
 		(unit 1)
 		(body_style 1)
@@ -8759,7 +8759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KLOR:MountingHole_3.2mm_M3"
+		(property "Footprint" "klaw:MountingHole_3.2mm_M3"
 			(at 117.602 84.074 0)
 			(hide yes)
 			(show_name no)
@@ -8801,7 +8801,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Buzzer")
+		(lib_id "klawlib:Buzzer")
 		(at 81.788 102.108 0)
 		(unit 1)
 		(body_style 1)
@@ -8834,7 +8834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KLOR:Buzzer_Mallory_AST1109MLTRQ_reversible"
+		(property "Footprint" "klaw:Buzzer_Mallory_AST1109MLTRQ_reversible"
 			(at 81.153 99.568 90)
 			(hide yes)
 			(show_name no)
@@ -8937,7 +8937,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:MountingHole")
+		(lib_id "klawlib:MountingHole")
 		(at 117.602 100.076 0)
 		(unit 1)
 		(body_style 1)
@@ -8969,7 +8969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KLOR:MountingHole_3.2mm_M3"
+		(property "Footprint" "klaw:MountingHole_3.2mm_M3"
 			(at 117.602 100.076 0)
 			(hide yes)
 			(show_name no)
@@ -9011,7 +9011,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 211.328 67.056 0)
 		(unit 1)
 		(body_style 1)
@@ -9042,7 +9042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 211.328 63.246 0)
 			(hide yes)
 			(show_name no)
@@ -9223,7 +9223,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 193.548 67.056 0)
 		(unit 1)
 		(body_style 1)
@@ -9254,7 +9254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 193.548 63.246 0)
 			(hide yes)
 			(show_name no)
@@ -9435,7 +9435,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 239.268 69.596 90)
 		(unit 1)
 		(body_style 1)
@@ -9469,7 +9469,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 239.268 69.596 90)
 			(hide yes)
 			(show_name no)
@@ -9572,7 +9572,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 203.708 83.566 90)
 		(unit 1)
 		(body_style 1)
@@ -9606,7 +9606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 203.708 83.566 90)
 			(hide yes)
 			(show_name no)
@@ -9862,7 +9862,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 168.148 83.566 90)
 		(unit 1)
 		(body_style 1)
@@ -9896,7 +9896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 168.148 83.566 90)
 			(hide yes)
 			(show_name no)
@@ -9999,7 +9999,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 235.966 123.952 180)
 		(unit 2)
 		(body_style 1)
@@ -10030,7 +10030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 235.966 127.762 0)
 			(hide yes)
 			(show_name no)
@@ -10211,7 +10211,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 211.328 39.116 0)
 		(unit 1)
 		(body_style 1)
@@ -10242,7 +10242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 211.328 35.306 0)
 			(hide yes)
 			(show_name no)
@@ -10423,7 +10423,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_DPDT_x2")
+		(lib_id "klawlib:SW_DPDT_x2")
 		(at 114.808 176.022 0)
 		(unit 1)
 		(body_style 1)
@@ -10455,7 +10455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:MSK12C02_reversible"
+		(property "Footprint" "klaw:MSK12C02_reversible"
 			(at 114.808 176.022 0)
 			(hide yes)
 			(show_name no)
@@ -10570,7 +10570,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 246.888 67.056 0)
 		(unit 1)
 		(body_style 1)
@@ -10601,7 +10601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 246.888 63.246 0)
 			(hide yes)
 			(show_name no)
@@ -10782,7 +10782,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Conn_01x05")
+		(lib_id "klawlib:Conn_01x05")
 		(at 108.712 133.858 0)
 		(mirror y)
 		(unit 1)
@@ -10815,7 +10815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KLOR:lvc27_onlyInput"
+		(property "Footprint" "klaw:lvc27_onlyInput"
 			(at 108.712 133.858 0)
 			(hide yes)
 			(show_name no)
@@ -10872,7 +10872,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 100.584 171.958 0)
 		(unit 1)
 		(body_style 1)
@@ -10903,7 +10903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 100.584 171.958 0)
 			(hide yes)
 			(show_name no)
@@ -11093,7 +11093,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:MJ-4PP-9 TRRS")
+		(lib_id "klawlib:MJ-4PP-9 TRRS")
 		(at 111.76 39.624 0)
 		(unit 1)
 		(body_style 1)
@@ -11124,7 +11124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:MJ-4PP-9"
+		(property "Footprint" "klaw:MJ-4PP-9"
 			(at 111.76 39.624 0)
 			(hide yes)
 			(show_name no)
@@ -11322,7 +11322,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 222.504 123.952 0)
 		(unit 2)
 		(body_style 1)
@@ -11353,7 +11353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 222.504 120.142 0)
 			(hide yes)
 			(show_name no)
@@ -11534,7 +11534,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SSD1306")
+		(lib_id "klawlib:SSD1306")
 		(at 139.446 176.276 270)
 		(unit 1)
 		(body_style 1)
@@ -11565,7 +11565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SSD1306_128x64OLED"
+		(property "Footprint" "klaw:SSD1306_128x64OLED"
 			(at 145.796 176.276 0)
 			(hide yes)
 			(show_name no)
@@ -11630,7 +11630,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 156.972 191.008 0)
 		(unit 1)
 		(body_style 1)
@@ -11661,7 +11661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 156.972 191.008 0)
 			(hide yes)
 			(show_name no)
@@ -11775,7 +11775,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 221.488 55.626 90)
 		(unit 1)
 		(body_style 1)
@@ -11809,7 +11809,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 221.488 55.626 90)
 			(hide yes)
 			(show_name no)
@@ -11912,7 +11912,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 229.108 67.056 0)
 		(unit 1)
 		(body_style 1)
@@ -11943,7 +11943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 229.108 63.246 0)
 			(hide yes)
 			(show_name no)
@@ -12124,7 +12124,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 182.88 146.304 180)
 		(unit 2)
 		(body_style 1)
@@ -12155,7 +12155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 182.88 150.114 0)
 			(hide yes)
 			(show_name no)
@@ -12413,7 +12413,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_Push")
+		(lib_id "klawlib:SW_Push")
 		(at 40.132 105.664 0)
 		(unit 1)
 		(body_style 1)
@@ -12444,7 +12444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010_both_sides"
+		(property "Footprint" "klaw:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010_both_sides"
 			(at 40.132 100.584 0)
 			(hide yes)
 			(show_name no)
@@ -12547,7 +12547,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 221.488 41.656 90)
 		(unit 1)
 		(body_style 1)
@@ -12581,7 +12581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 221.488 41.656 90)
 			(hide yes)
 			(show_name no)
@@ -12761,7 +12761,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 222.504 135.128 0)
 		(unit 2)
 		(body_style 1)
@@ -12792,7 +12792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 222.504 131.318 0)
 			(hide yes)
 			(show_name no)
@@ -12973,7 +12973,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 185.928 55.626 90)
 		(unit 1)
 		(body_style 1)
@@ -13007,7 +13007,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 185.928 55.626 90)
 			(hide yes)
 			(show_name no)
@@ -13110,7 +13110,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 221.488 69.596 90)
 		(unit 1)
 		(body_style 1)
@@ -13144,7 +13144,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 221.488 69.596 90)
 			(hide yes)
 			(show_name no)
@@ -13324,7 +13324,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 100.33 179.578 0)
 		(unit 1)
 		(body_style 1)
@@ -13355,7 +13355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 100.33 179.578 0)
 			(hide yes)
 			(show_name no)
@@ -13469,7 +13469,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 175.768 53.086 0)
 		(unit 1)
 		(body_style 1)
@@ -13500,7 +13500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 175.768 49.276 0)
 			(hide yes)
 			(show_name no)
@@ -13681,7 +13681,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 168.148 55.626 90)
 		(unit 1)
 		(body_style 1)
@@ -13715,7 +13715,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 168.148 55.626 90)
 			(hide yes)
 			(show_name no)
@@ -13895,7 +13895,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 222.25 112.776 0)
 		(unit 2)
 		(body_style 1)
@@ -13926,7 +13926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 222.25 108.966 0)
 			(hide yes)
 			(show_name no)
@@ -14184,7 +14184,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 248.92 112.776 0)
 		(unit 2)
 		(body_style 1)
@@ -14215,7 +14215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 248.92 108.966 0)
 			(hide yes)
 			(show_name no)
@@ -14396,7 +14396,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Battery_Cell")
+		(lib_id "klawlib:Battery_Cell")
 		(at 81.28 176.53 0)
 		(unit 1)
 		(body_style 1)
@@ -14427,7 +14427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:custombatteryconnector_small"
+		(property "Footprint" "klaw:custombatteryconnector_small"
 			(at 81.28 175.006 90)
 			(hide yes)
 			(show_name no)
@@ -14475,7 +14475,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 168.148 41.656 90)
 		(unit 1)
 		(body_style 1)
@@ -14509,7 +14509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 168.148 41.656 90)
 			(hide yes)
 			(show_name no)
@@ -14612,7 +14612,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 235.712 112.776 180)
 		(unit 2)
 		(body_style 1)
@@ -14643,7 +14643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 235.712 116.586 0)
 			(hide yes)
 			(show_name no)
@@ -14824,7 +14824,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:RotaryEncoder_Switch")
+		(lib_id "klawlib:RotaryEncoder_Switch")
 		(at 46.99 180.594 0)
 		(unit 1)
 		(body_style 1)
@@ -14855,7 +14855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified"
+		(property "Footprint" "klaw:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm-keebio_modified"
 			(at 43.18 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -15056,7 +15056,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 239.268 41.656 90)
 		(unit 1)
 		(body_style 1)
@@ -15090,7 +15090,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 239.268 41.656 90)
 			(hide yes)
 			(show_name no)
@@ -15193,7 +15193,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 209.55 123.952 180)
 		(unit 2)
 		(body_style 1)
@@ -15224,7 +15224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 209.55 127.762 0)
 			(hide yes)
 			(show_name no)
@@ -15483,7 +15483,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 156.972 185.928 0)
 		(unit 1)
 		(body_style 1)
@@ -15514,7 +15514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 156.972 185.928 0)
 			(hide yes)
 			(show_name no)
@@ -15628,7 +15628,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 221.488 83.566 90)
 		(unit 1)
 		(body_style 1)
@@ -15662,7 +15662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 221.488 83.566 90)
 			(hide yes)
 			(show_name no)
@@ -15765,7 +15765,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:MountingHole")
+		(lib_id "klawlib:MountingHole")
 		(at 117.602 73.406 0)
 		(unit 1)
 		(body_style 1)
@@ -15798,7 +15798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KLOR:MountingHole_3.2mm_M3"
+		(property "Footprint" "klaw:MountingHole_3.2mm_M3"
 			(at 117.602 73.406 0)
 			(hide yes)
 			(show_name no)
@@ -15840,7 +15840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 185.928 41.656 90)
 		(unit 1)
 		(body_style 1)
@@ -15874,7 +15874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 185.928 41.656 90)
 			(hide yes)
 			(show_name no)
@@ -15977,7 +15977,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 125.222 152.908 0)
 		(unit 1)
 		(body_style 1)
@@ -16008,7 +16008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 125.222 152.908 0)
 			(hide yes)
 			(show_name no)
@@ -16122,7 +16122,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 193.548 53.086 0)
 		(unit 1)
 		(body_style 1)
@@ -16153,7 +16153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 193.548 49.276 0)
 			(hide yes)
 			(show_name no)
@@ -16334,7 +16334,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 156.972 177.546 0)
 		(unit 1)
 		(body_style 1)
@@ -16365,7 +16365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 156.972 177.546 0)
 			(hide yes)
 			(show_name no)
@@ -16479,7 +16479,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 100.33 183.134 0)
 		(unit 1)
 		(body_style 1)
@@ -16510,7 +16510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 100.33 183.134 0)
 			(hide yes)
 			(show_name no)
@@ -16624,7 +16624,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 168.148 69.596 90)
 		(unit 1)
 		(body_style 1)
@@ -16658,7 +16658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 168.148 69.596 90)
 			(hide yes)
 			(show_name no)
@@ -16761,7 +16761,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 156.972 188.214 0)
 		(unit 1)
 		(body_style 1)
@@ -16792,7 +16792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 156.972 188.214 0)
 			(hide yes)
 			(show_name no)
@@ -16983,7 +16983,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 229.108 81.026 0)
 		(unit 1)
 		(body_style 1)
@@ -17014,7 +17014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 229.108 77.216 0)
 			(hide yes)
 			(show_name no)
@@ -17195,7 +17195,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 156.972 172.466 0)
 		(unit 1)
 		(body_style 1)
@@ -17226,7 +17226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 156.972 172.466 0)
 			(hide yes)
 			(show_name no)
@@ -17340,7 +17340,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 185.928 69.596 90)
 		(unit 1)
 		(body_style 1)
@@ -17374,7 +17374,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 185.928 69.596 90)
 			(hide yes)
 			(show_name no)
@@ -17477,7 +17477,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 235.966 135.128 180)
 		(unit 2)
 		(body_style 1)
@@ -17508,7 +17508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 235.966 138.938 0)
 			(hide yes)
 			(show_name no)
@@ -17766,7 +17766,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 125.222 136.398 0)
 		(unit 1)
 		(body_style 1)
@@ -17797,7 +17797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 125.222 136.398 0)
 			(hide yes)
 			(show_name no)
@@ -17911,7 +17911,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 229.108 53.086 0)
 		(unit 1)
 		(body_style 1)
@@ -17942,7 +17942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 229.108 49.276 0)
 			(hide yes)
 			(show_name no)
@@ -18123,7 +18123,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:MountingHole")
+		(lib_id "klawlib:MountingHole")
 		(at 117.602 89.662 0)
 		(unit 1)
 		(body_style 1)
@@ -18155,7 +18155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KLOR:MountingHole_3.2mm_M3"
+		(property "Footprint" "klaw:MountingHole_3.2mm_M3"
 			(at 117.602 89.662 0)
 			(hide yes)
 			(show_name no)
@@ -18197,7 +18197,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 246.888 53.086 0)
 		(unit 1)
 		(body_style 1)
@@ -18228,7 +18228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 246.888 49.276 0)
 			(hide yes)
 			(show_name no)
@@ -18409,7 +18409,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 125.222 131.318 0)
 		(unit 1)
 		(body_style 1)
@@ -18440,7 +18440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 125.222 131.318 0)
 			(hide yes)
 			(show_name no)
@@ -18554,7 +18554,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 209.296 112.776 180)
 		(unit 2)
 		(body_style 1)
@@ -18585,7 +18585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 209.296 116.586 0)
 			(hide yes)
 			(show_name no)
@@ -18766,7 +18766,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 193.548 39.116 0)
 		(unit 1)
 		(body_style 1)
@@ -18797,7 +18797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 193.548 35.306 0)
 			(hide yes)
 			(show_name no)
@@ -18978,7 +18978,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 175.768 39.116 0)
 		(unit 1)
 		(body_style 1)
@@ -19009,7 +19009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 175.768 35.306 0)
 			(hide yes)
 			(show_name no)
@@ -19345,7 +19345,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 100.584 167.894 0)
 		(unit 1)
 		(body_style 1)
@@ -19376,7 +19376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 100.584 167.894 0)
 			(hide yes)
 			(show_name no)
@@ -19490,7 +19490,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 203.708 69.596 90)
 		(unit 1)
 		(body_style 1)
@@ -19524,7 +19524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 203.708 69.596 90)
 			(hide yes)
 			(show_name no)
@@ -19705,7 +19705,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 246.888 39.116 0)
 		(unit 1)
 		(body_style 1)
@@ -19736,7 +19736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 246.888 35.306 0)
 			(hide yes)
 			(show_name no)
@@ -19994,7 +19994,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 249.174 123.952 0)
 		(unit 2)
 		(body_style 1)
@@ -20025,7 +20025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 249.174 120.142 0)
 			(hide yes)
 			(show_name no)
@@ -20283,7 +20283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 196.342 112.776 0)
 		(unit 2)
 		(body_style 1)
@@ -20314,7 +20314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 196.342 108.966 0)
 			(hide yes)
 			(show_name no)
@@ -20729,7 +20729,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 239.268 55.626 90)
 		(unit 1)
 		(body_style 1)
@@ -20763,7 +20763,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 239.268 55.626 90)
 			(hide yes)
 			(show_name no)
@@ -20866,7 +20866,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 209.55 135.128 180)
 		(unit 2)
 		(body_style 1)
@@ -20897,7 +20897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 209.55 138.938 0)
 			(hide yes)
 			(show_name no)
@@ -21078,7 +21078,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 156.972 183.388 0)
 		(unit 1)
 		(body_style 1)
@@ -21109,7 +21109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 156.972 183.388 0)
 			(hide yes)
 			(show_name no)
@@ -21223,7 +21223,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 175.768 67.056 0)
 		(unit 1)
 		(body_style 1)
@@ -21254,7 +21254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 175.768 63.246 0)
 			(hide yes)
 			(show_name no)
@@ -21512,7 +21512,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 125.222 145.288 0)
 		(unit 1)
 		(body_style 1)
@@ -21543,7 +21543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 125.222 145.288 0)
 			(hide yes)
 			(show_name no)
@@ -21735,7 +21735,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:Battery_Cell")
+		(lib_id "klawlib:Battery_Cell")
 		(at 87.63 176.53 0)
 		(unit 1)
 		(body_style 1)
@@ -21765,7 +21765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:JST_PH_reversible"
+		(property "Footprint" "klaw:JST_PH_reversible"
 			(at 87.63 175.006 90)
 			(hide yes)
 			(show_name no)
@@ -21945,7 +21945,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:MountingHole")
+		(lib_id "klawlib:MountingHole")
 		(at 117.602 94.742 0)
 		(unit 1)
 		(body_style 1)
@@ -21977,7 +21977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KLOR:MountingHole_3.2mm_M3"
+		(property "Footprint" "klaw:MountingHole_3.2mm_M3"
 			(at 117.602 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -22019,7 +22019,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 156.972 175.006 0)
 		(unit 1)
 		(body_style 1)
@@ -22050,7 +22050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 156.972 175.006 0)
 			(hide yes)
 			(show_name no)
@@ -22242,7 +22242,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:D_Small")
+		(lib_id "klawlib:D_Small")
 		(at 203.708 55.626 90)
 		(unit 1)
 		(body_style 1)
@@ -22276,7 +22276,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "KLOR:Diode_SOD123"
+		(property "Footprint" "klaw:Diode_SOD123"
 			(at 203.708 55.626 90)
 			(hide yes)
 			(show_name no)
@@ -22456,7 +22456,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 211.328 81.026 0)
 		(unit 1)
 		(body_style 1)
@@ -22487,7 +22487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 211.328 77.216 0)
 			(hide yes)
 			(show_name no)
@@ -22668,7 +22668,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 156.972 180.086 0)
 		(unit 1)
 		(body_style 1)
@@ -22699,7 +22699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 156.972 180.086 0)
 			(hide yes)
 			(show_name no)
@@ -22813,7 +22813,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 125.222 150.368 0)
 		(unit 1)
 		(body_style 1)
@@ -22844,7 +22844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 125.222 150.368 0)
 			(hide yes)
 			(show_name no)
@@ -23035,7 +23035,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 249.174 135.128 0)
 		(unit 2)
 		(body_style 1)
@@ -23066,7 +23066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 249.174 131.318 0)
 			(hide yes)
 			(show_name no)
@@ -23247,7 +23247,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:ProMicro")
+		(lib_id "klawlib:ProMicro")
 		(at 49.784 40.386 0)
 		(unit 1)
 		(body_style 1)
@@ -23278,7 +23278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:ProMicro"
+		(property "Footprint" "klaw:ProMicro"
 			(at 52.324 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -23402,7 +23402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:MountingHole")
+		(lib_id "klawlib:MountingHole")
 		(at 117.602 68.326 0)
 		(unit 1)
 		(body_style 1)
@@ -23434,7 +23434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KLOR:MountingHole_3.2mm_M3"
+		(property "Footprint" "klaw:MountingHole_3.2mm_M3"
 			(at 117.602 68.326 0)
 			(hide yes)
 			(show_name no)
@@ -23476,7 +23476,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 196.596 135.128 0)
 		(unit 2)
 		(body_style 1)
@@ -23507,7 +23507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 196.596 131.318 0)
 			(hide yes)
 			(show_name no)
@@ -23688,7 +23688,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 211.328 53.086 0)
 		(unit 1)
 		(body_style 1)
@@ -23719,7 +23719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 211.328 49.276 0)
 			(hide yes)
 			(show_name no)
@@ -23977,7 +23977,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:MountingHole")
+		(lib_id "klawlib:MountingHole")
 		(at 117.602 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -24009,7 +24009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KLOR:MountingHole_3.2mm_M3"
+		(property "Footprint" "klaw:MountingHole_3.2mm_M3"
 			(at 117.602 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -24051,7 +24051,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:R_0R")
+		(lib_id "klawlib:R_0R")
 		(at 125.222 128.778 0)
 		(unit 1)
 		(body_style 1)
@@ -24082,7 +24082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:R_0603_1608Metric"
+		(property "Footprint" "klaw:R_0603_1608Metric"
 			(at 125.222 128.778 0)
 			(hide yes)
 			(show_name no)
@@ -24274,7 +24274,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KLORlib:SW_PUSH-MX_W_LED")
+		(lib_id "klawlib:SW_PUSH-MX_W_LED")
 		(at 229.108 39.116 0)
 		(unit 1)
 		(body_style 1)
@@ -24305,7 +24305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KLOR:SK6812MINI_and_cherry"
+		(property "Footprint" "klaw:SK6812MINI_and_cherry"
 			(at 229.108 35.306 0)
 			(hide yes)
 			(show_name no)

@@ -58,7 +58,7 @@
   (fp_line (start -5.5 4.5) (end -5.5 -4.5) (layer "F.Fab") (width 0.1) (tstamp b7b1403a-781a-4e47-97dc-696ccee9283f))
   (pad "1" thru_hole rect (at -6.6 0) (size 2.2 2.2) (drill 0.5) (layers *.Cu *.Mask) (tstamp 59dce600-577b-4b5a-b83f-72ef496be2f2))
   (pad "2" thru_hole rect (at 6.6 0) (size 2.2 2.2) (drill 0.5) (layers *.Cu *.Mask) (tstamp d563e004-114b-4ff9-9c75-e868d69725c6))
-  (model "${KIPRJMOD}/KLOR.3dshapes/Buzzer_11x9_KLJ-1102.step"
+  (model "${KIPRJMOD}/klaw.3dshapes/Buzzer_11x9_KLJ-1102.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -656,7 +656,7 @@
 		(uuid "46951f89-421b-43bd-aa4c-8a8f2e7bdc45")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/KLOR.3dshapes/nRF52840_ProMicro_bottom_mount.step"
+	(model "${KIPRJMOD}/klaw.3dshapes/nRF52840_ProMicro_bottom_mount.step"
 		(offset
 			(xyz -1.2 0.8 0)
 		)

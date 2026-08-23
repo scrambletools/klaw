@@ -19,7 +19,7 @@
   (pad "3" thru_hole circle (at 0 5.08) (size 1.8 1.8) (drill 0.85) (layers *.Cu *.Mask) (tstamp febe73f1-0510-4bb8-b7df-e3c2f5725eb8))
   (pad "4" thru_hole circle (at 0 7.62) (size 1.8 1.8) (drill 0.85) (layers *.Cu *.Mask) (tstamp d6993e80-fafe-4066-a7bd-417dcc7ea551))
   (pad "5" thru_hole circle (at 0 10.16) (size 1.8 1.8) (drill 0.85) (layers *.Cu *.Mask) (tstamp 9e17f06b-705d-4473-a8c6-cd35e9f72b70))
-  (model "${KIPRJMOD}/KLOR.3dshapes/PinHeader_1x05_Vertical.step"
+  (model "${KIPRJMOD}/klaw.3dshapes/PinHeader_1x05_Vertical.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

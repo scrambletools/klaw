@@ -22,7 +22,7 @@
   (fp_line (start 0.4 0.7) (end -0.5 0) (layer "F.SilkS") (width 0.15) (tstamp f31795e1-bf4b-40fb-b2d8-26190b21c4ff))
   (pad "1" thru_hole rect (at -1.7 0) (size 1.8 1.5) (drill 0.4) (layers *.Cu *.Mask) (tstamp 47b4be20-4ecc-4148-ac4d-6e6891663eca))
   (pad "2" thru_hole rect (at 1.7 0) (size 1.8 1.5) (drill 0.4) (layers *.Cu *.Mask) (tstamp 8aa68a9c-a8f0-4b9c-bea9-d12b1cc11718))
-  (model "${KIPRJMOD}/KLOR.3dshapes/D_SOD-123.step"
+  (model "${KIPRJMOD}/klaw.3dshapes/D_SOD-123.step"
     (offset (xyz 0 0 -1.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))

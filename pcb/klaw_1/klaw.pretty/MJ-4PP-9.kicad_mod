@@ -42,7 +42,7 @@
     (clearance 0.15) (tstamp c904cd6a-2876-43ea-86ff-647dba742e1e))
   (pad "4" thru_hole oval (at 0.35 11.8) (size 1.7 2.5) (drill oval 1 1.5) (layers *.Cu *.Mask "F.SilkS")
     (clearance 0.15) (tstamp f7ed73da-c6e3-4daa-953c-e3cc3a1f7346))
-  (model "${KIPRJMOD}/KLOR.3dshapes/TRRS_PJ-320A-4P_built.step"
+  (model "${KIPRJMOD}/klaw.3dshapes/TRRS_PJ-320A-4P_built.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

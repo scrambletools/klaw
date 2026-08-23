@@ -102,7 +102,7 @@
   (fp_line (start 3.95 6.25) (end 3.95 -1.35) (layer "F.Fab") (width 0.1) (tstamp d4bf6ec8-8c81-47a1-9fd1-73bbfd5f0724))
   (pad "1" thru_hole oval (at 0 0) (size 1.2 1.75) (drill 0.75) (layers *.Cu *.Mask) (tstamp cef7c041-83d0-4a81-8c73-149a2638903e))
   (pad "2" thru_hole oval (at 2 0) (size 1.2 1.75) (drill 0.75) (layers *.Cu *.Mask) (tstamp 965ef592-ebed-4b03-9c45-9a1a7210345c))
-  (model "${KIPRJMOD}/KLOR.3dshapes/JST_PH_S2B-PH-K.step"
+  (model "${KIPRJMOD}/klaw.3dshapes/JST_PH_S2B-PH-K.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

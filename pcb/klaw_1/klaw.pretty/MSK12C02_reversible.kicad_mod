@@ -204,7 +204,7 @@
 		(uuid "9e64e2c6-1cae-470d-ba38-09c21cc56d7b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/KLOR.3dshapes/MSK12C02.step"
+	(model "${KIPRJMOD}/klaw.3dshapes/MSK12C02.step"
 		(offset
 			(xyz 1.35 -3.75 0)
 		)
