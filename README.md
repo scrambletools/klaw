@@ -35,8 +35,9 @@ configuration links, is machine-assembled.
 | `pcb/klaw_1/` | KiCad 10 project — schematic, board, project library with LCSC sourcing fields and 3D models |
 | `fab/` | JLCPCB production files — gerbers, drills, BOM, placement (see `fab/README.md`) |
 | `bom/` | Per-half build BOMs (`bom_left.csv`, `bom_right.csv`) with LCSC part numbers |
-| `case/` | Case design (in progress) |
 | `code/` | Firmware config (in progress) |
+
+The case is designed in Plasticity and maintained outside this repository.
 
 ## Building one
 

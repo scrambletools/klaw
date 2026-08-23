@@ -27,3 +27,6 @@ pcb/klaw_1/KLOR_1-3_gerbers.zip
 # ignore autosave and rolling history snapshots
 *_autosave.plasticity
 case/plasticity/
+
+# case design lives outside this repo (Plasticity, user-managed)
+case/
