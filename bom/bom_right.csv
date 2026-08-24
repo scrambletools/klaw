@@ -6,7 +6,7 @@ MX hotswap socket (Kailh CPG151101S11 compat),"SW1-SW10,SW12-SW16,SW20,SW21",17,
 MSK12C02 power slide switch,PSW1,0,C431540,DNP (wired config),Front,Re-enable for battery variant; keycap side per KLOR BLE guide
 Alps SKRTLAE010 reset switch,RSW1,1,C110293,LCSC,Front,HAND-SOLDER on keycap side (KLOR 3DP guide)
 JST PH 2-pin battery connector (S2B-PH-K-S),BT1,0,C173752,DNP (wired config),Back,Re-enable for battery variant; component side per KLOR BLE guide
-TRRS jack PJ-320A-4P (MJ-4PP-9 compatible THT),J1,1,C18185602,LCSC,Front,JLC-assembled on keycap side; verify slot fit on first order
+TRRS jack PJ-320A-4P (MJ-4PP-9 compatible THT),J1,1,C18185602,LCSC,Back,"JLC-assembled on component side (deviation from KLOR 3DP guide, matches BLE guide); body sits 1.75mm off-center vs keycap-face mount - check case aperture; verify slot fit on first order"
 Piezo buzzer KLJ-1102,BZ1,1,C201047,LCSC,Front,HAND-SOLDER on keycap side; AST1109MLTRQ substitute per KLOR docs; low stock
 EC11 rotary encoder w/ switch (Alps EC11N1525404),SW18,1,C470748,LCSC,Front,HAND-SOLDER from keycap side; 20mm D-cut shaft - D-bore push-on or set-screw knob; 30 det/15 pulse
 SSD1306 128x64 OLED module 0.96in 4-pin I2C,OLED1,1,-,User-supplied,Front,"Keycap side, covers MCU pins; tape the back"
