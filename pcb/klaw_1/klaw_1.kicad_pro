@@ -191,10 +191,6 @@
           ""
         ],
         [
-          "footprint_type_mismatch|82875000|62000000|d7df2637-4a3f-4da3-8255-101688775468|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "footprint_type_mismatch|84400000|120254766|81797284-71c5-40f5-911f-acaa7074a32f|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -351,23 +347,7 @@
           ""
         ],
         [
-          "shorting_items|86024772|63399772|bb9c14dd-b5bb-4f20-9c8a-9038948b3ce1|fcd0e196-8d7e-4c4c-a99c-c0d8a5f57856",
-          ""
-        ],
-        [
-          "solder_mask_bridge|86024772|63399772|bb9c14dd-b5bb-4f20-9c8a-9038948b3ce1|fcd0e196-8d7e-4c4c-a99c-c0d8a5f57856",
-          ""
-        ],
-        [
-          "starved_thermal|105318815|65655745|3490e496-0d94-4288-8c5c-ba164c063c4d|e2bca42a-ec74-4cf4-ad33-e5df024b4233|B.Cu",
-          ""
-        ],
-        [
           "starved_thermal|85300000|119029766|3490e496-0d94-4288-8c5c-ba164c063c4d|b147a1d9-2979-475a-925b-38d31cdc7241|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|88780000|64460000|3490e496-0d94-4288-8c5c-ba164c063c4d|57213f4c-92e3-4d08-8a8c-4b0179c0d87e|B.Cu",
           ""
         ],
         [
@@ -1022,7 +1002,7 @@
         "uuid": "3934cdea-42c8-4ab1-b1be-2c4978ab08ae"
       }
     ],
-    "used_designators": "",
+    "used_designators": "PSW2",
     "variants": []
   },
   "sheets": [

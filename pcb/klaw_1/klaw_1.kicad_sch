@@ -12,6 +12,257 @@
 		(comment 2 "Author: Scramble")
 	)
 	(lib_symbols
+		(symbol "SofleKeyboard-cache:Device_Jumper_NO_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Device_Jumper_NO_Small"
+				(at 0.254 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Device_Jumper_NO_Small_0_1"
+				(circle
+					(center -1.016 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.016)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.016)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SofleKeyboard-cache:power_VCC"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "power_VCC"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "power_VCC_0_1"
+				(circle
+					(center 0 1.905)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "power_VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "klawlib:Battery_Cell"
 			(pin_numbers
 				(hide yes)
@@ -2554,6 +2805,50 @@
 					)
 				)
 			)
+			(property "LCSC" "C431540"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.0540@10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Stock" "164580"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Checked" "2026-08-20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
 				(at 0 0 0)
 				(show_name no)
@@ -2627,9 +2922,9 @@
 			)
 			(symbol "SW_DPDT_x2_1_1"
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2645,9 +2940,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "B"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2663,9 +2958,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "C"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3123,257 +3418,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SofleKeyboard-cache:Device_Jumper_NO_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Device_Jumper_NO_Small"
-				(at 0.254 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Device_Jumper_NO_Small_0_1"
-				(circle
-					(center -1.016 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.016 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.016)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.016)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SofleKeyboard-cache:power_VCC"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "power_VCC"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "power_VCC_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "power_VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4061,6 +4105,12 @@
 		(uuid "3f77dda6-ec70-40dd-addc-54ef3b1c5fdf")
 	)
 	(junction
+		(at 105.41 178.562)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4118b1b3-7538-4fe2-b2ce-345acbe04fb1")
+	)
+	(junction
 		(at 218.948 67.056)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4163,12 +4213,6 @@
 		(uuid "85f9aa62-95ac-4085-b6b5-8efcc5cd0f1b")
 	)
 	(junction
-		(at 107.188 176.022)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "893097a9-652e-49dd-8c9a-24d0aa68bb37")
-	)
-	(junction
 		(at 95.758 169.926)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4191,6 +4235,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c708093-4d50-47ec-a4b9-bbaf3829e370")
+	)
+	(junction
+		(at 107.442 178.562)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cdd8aea-56ef-445a-abbf-0e4afd75e93f")
 	)
 	(junction
 		(at 229.108 133.858)
@@ -4313,12 +4363,6 @@
 		(uuid "dc13077d-6c32-446b-9cd7-fdd17872566c")
 	)
 	(junction
-		(at 105.41 176.022)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb088c2d-87c0-4050-970a-2e429533c167")
-	)
-	(junction
 		(at 242.57 133.858)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4385,7 +4429,7 @@
 		(uuid "fba0fde7-5584-4289-932c-efff7e4921a1")
 	)
 	(no_connect
-		(at 119.888 173.482)
+		(at 110.744 173.482)
 		(uuid "2778d783-6019-4027-b6a1-850375732747")
 	)
 	(no_connect
@@ -4418,7 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 176.022) (xy 105.41 179.578)
+			(xy 105.41 171.958) (xy 105.41 178.562)
 		)
 		(stroke
 			(width 0)
@@ -5088,7 +5132,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 176.022) (xy 107.188 176.022)
+			(xy 105.41 178.562) (xy 107.442 178.562)
 		)
 		(stroke
 			(width 0)
@@ -5788,16 +5832,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 171.958) (xy 105.41 176.022)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98b49468-5b76-4f84-8306-754441df54d9")
-	)
-	(wire
-		(pts
 			(xy 149.352 180.086) (xy 154.432 180.086)
 		)
 		(stroke
@@ -6108,16 +6142,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.888 178.562) (xy 122.428 178.562)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd3c048e-3040-4212-acc5-cfef9cedf7ee")
-	)
-	(wire
-		(pts
 			(xy 95.758 179.578) (xy 97.79 179.578)
 		)
 		(stroke
@@ -6175,6 +6199,16 @@
 			(type default)
 		)
 		(uuid "c14872e9-a94b-4975-8e29-9f8e477e2679")
+	)
+	(wire
+		(pts
+			(xy 105.41 178.562) (xy 105.41 179.578)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2adc352-27e5-472b-958e-430493748ed2")
 	)
 	(wire
 		(pts
@@ -6458,7 +6492,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.188 176.022) (xy 109.728 176.022)
+			(xy 107.442 178.562) (xy 110.744 178.562)
 		)
 		(stroke
 			(width 0)
@@ -6668,7 +6702,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.188 165.862) (xy 107.188 176.022)
+			(xy 107.442 165.862) (xy 107.442 178.562)
 		)
 		(stroke
 			(width 0)
@@ -6688,7 +6722,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 165.862) (xy 107.188 165.862)
+			(xy 81.28 165.862) (xy 107.442 165.862)
 		)
 		(stroke
 			(width 0)
@@ -6887,7 +6921,7 @@
 		(uuid "119d2aaf-0cb9-47d3-94a4-10c3f8f67bbc")
 	)
 	(label "PSW"
-		(at 108.712 176.022 0)
+		(at 108.712 178.562 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10424,7 +10458,8 @@
 	)
 	(symbol
 		(lib_id "klawlib:SW_DPDT_x2")
-		(at 114.808 176.022 0)
+		(at 115.824 176.022 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10432,10 +10467,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "0ec277ab-bd42-4f1a-9fcd-c9e2ceec5eea")
 		(property "Reference" "PSW1"
-			(at 114.808 170.688 0)
+			(at 115.824 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10445,7 +10479,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 114.808 170.942 0)
+			(at 115.824 170.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10456,7 +10490,7 @@
 			)
 		)
 		(property "Footprint" "klaw:MSK12C02_reversible"
-			(at 114.808 176.022 0)
+			(at 115.824 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10467,7 +10501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.808 176.022 0)
+			(at 115.824 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10477,8 +10511,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 114.808 176.022 0)
+		(property "Description" "Switch, dual pole double throw, separate symbols"
+			(at 115.824 176.022 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10488,7 +10523,7 @@
 			)
 		)
 		(property "LCSC" "C431540"
-			(at 114.808 176.022 0)
+			(at 115.824 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10499,7 +10534,7 @@
 			)
 		)
 		(property "Price" "0.0540@10"
-			(at 114.808 176.022 0)
+			(at 115.824 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10510,7 +10545,7 @@
 			)
 		)
 		(property "Stock" "164580"
-			(at 114.808 176.022 0)
+			(at 115.824 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10521,7 +10556,7 @@
 			)
 		)
 		(property "Checked" "2026-08-20"
-			(at 114.808 176.022 0)
+			(at 115.824 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10532,7 +10567,7 @@
 			)
 		)
 		(property "Assembly" "JLC"
-			(at 114.808 176.022 0)
+			(at 115.824 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11018,7 +11053,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 122.428 178.562 0)
+		(at 120.904 176.022 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11028,7 +11063,7 @@
 		(dnp no)
 		(uuid "15d7baa9-c6bf-4c0d-8cb7-f5408e3568b5")
 		(property "Reference" "#PWR0104"
-			(at 122.428 182.372 0)
+			(at 120.904 179.832 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11039,7 +11074,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 122.682 180.086 0)
+			(at 121.158 177.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11049,7 +11084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.428 178.562 0)
+			(at 120.904 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11060,7 +11095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 122.428 178.562 0)
+			(at 120.904 176.022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11071,7 +11106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 122.428 178.562 0)
+			(at 120.904 176.022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
