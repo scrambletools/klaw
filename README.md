@@ -53,7 +53,8 @@ diodes, factory-reversed per-key RGB LEDs (SK6812MINI-EA), hot-swap sockets,
 TRRS, buzzer, reset switch, encoder, and each side's 0R configuration resistors
 (double-sided assembly; mounting sides follow the
 [KLOR build guide](https://github.com/GEIGEIGEIST/KLOR/blob/main/docs/buildguide_3DP.md),
-except the TRRS jack, which mounts on the component face).
+except the TRRS jack, reset switch, and power switch, which mount on the
+component face).
 Mount-face tables, part numbers, prices, and per-half quantities are in `bom/`.
 
 **3. Add your own** MX-style switches (hot-swap, no soldering), a

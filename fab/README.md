@@ -12,8 +12,8 @@ serves both keyboard halves — same gerbers, two assembly configurations:
 - **Layers:** 2 (F.Cu / B.Cu), 1.6 mm
 - **Assembly per board:** 8 BOM line items, 65 placements, **double-sided**
   (JLC Standard assembly). Component face: 18 diodes, 17 reverse-mount
-  SK6812MINI-EA LEDs, 17 hotswap sockets, TRRS jack. Keycap face: buzzer,
-  reset switch, encoder.
+  SK6812MINI-EA LEDs, 17 hotswap sockets, TRRS jack, reset switch. Keycap
+  face: buzzer, encoder.
 - **Not assembled:** power switch + JST connector (DNP, wired-first config),
   MCU + OLED (user-supplied, socketed), MX switches + keycaps (plug-in).
   Nothing on the board needs a soldering iron after assembly.

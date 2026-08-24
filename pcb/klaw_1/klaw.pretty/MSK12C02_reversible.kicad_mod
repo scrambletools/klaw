@@ -206,13 +206,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/klaw.3dshapes/MSK12C02.step"
 		(offset
-			(xyz 1.35 -3.75 0)
+			(xyz -1.35 -3.75 -1.6)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -90)
+			(xyz 0 180 90)
 		)
 	)
 )
