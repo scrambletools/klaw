@@ -112,9 +112,9 @@
     (rotate (xyz 0 0 0))
   )
   (model "${KIPRJMOD}/klaw.3dshapes/LED_SK6812MINI-EA.step"
-    (offset (xyz 0 -5.5 0))
+    (offset (xyz 0 -5.5 -1.6))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (rotate (xyz 180 0 0))
   )
   (model "${KIPRJMOD}/klaw.3dshapes/Hotswap_Socket_CPG151101S11.step"
     (offset (xyz -0.635 3.81 -1.6))
