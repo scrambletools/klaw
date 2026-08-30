@@ -17,10 +17,14 @@ serves both keyboard halves — same gerbers, two assembly configurations:
 - **Not assembled:** power switch + JST connector (DNP, wired-first config),
   MCU + OLED (user-supplied, socketed), MX switches + keycaps (plug-in).
   Nothing on the board needs a soldering iron after assembly.
-- **Orientation:** the component face is the keyboard's underside. JLCPCB's
-  preview shows the right-half order populated on Bottom only and the left-half
-  order on Top only — that is correct, not a mistake. Backwards-looking bottom
-  silkscreen text in the raw 2D gerber view is also correct (viewer convention).
+- **Orientation:** the component face is the keyboard's underside — mostly
+  Bottom for the right-half order, mostly Top for the left-half (each order is
+  double-sided). Backwards-looking bottom silkscreen text in the raw 2D gerber
+  view is correct (viewer convention), and Bottom-layer parts (e.g. the right
+  build's diodes) legitimately look mirrored/reversed when compared against a
+  top view — judge polarity only by comparing a part against the silkscreen
+  arrow in the SAME view, never across views. The two builds' rotations are
+  twins by construction (shared-pad parts: bottom = (540 − top) mod 360).
 - LED placement rows use synthetic designators (`LED1`…`LED21`, numbered by key)
   since the LEDs share footprints with the switches; JLCPCB matches them by
   coordinates. The LED bodies protrude ~0.2 mm past the far face — JLC may add
