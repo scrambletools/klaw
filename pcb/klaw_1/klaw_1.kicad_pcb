@@ -91,7 +91,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(grid_origin 90.275 108.75)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
@@ -1020,7 +1019,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6 -7.000003)
+			(end 6 -7.000004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1030,7 +1029,7 @@
 		)
 		(fp_line
 			(start 7 7)
-			(end 7.000003 6)
+			(end 7.000004 6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1179,7 +1178,7 @@
 			(uuid "2c986670-ca42-4b1c-b6b0-c34d1acb59ef")
 		)
 		(fp_line
-			(start -7.000003 -6)
+			(start -7.000004 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -1200,7 +1199,7 @@
 		)
 		(fp_line
 			(start -7 7)
-			(end -6 7.000003)
+			(end -6 7.000004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1323,7 +1322,7 @@
 			(uuid "411ea838-bd5f-4ebc-ab22-1e4d3f04d70d")
 		)
 		(pad "" np_thru_hole circle
-			(at 3.81 -2.540004 356)
+			(at 3.81 -2.540005 356)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
@@ -6636,7 +6635,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6 -7.000003)
+			(end 6 -7.000004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6646,7 +6645,7 @@
 		)
 		(fp_line
 			(start 7 7)
-			(end 7.000003 6)
+			(end 7.000004 6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6795,7 +6794,7 @@
 			(uuid "44ecc7ea-0abe-4e1d-8341-fee1c1e71689")
 		)
 		(fp_line
-			(start -7.000003 -6)
+			(start -7.000004 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -6816,7 +6815,7 @@
 		)
 		(fp_line
 			(start -7 7)
-			(end -6 7.000003)
+			(end -6 7.000004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6939,7 +6938,7 @@
 			(uuid "13cd2d71-67f9-460f-9f42-df8c5c4df39f")
 		)
 		(pad "" np_thru_hole circle
-			(at 3.81 -2.540004 356)
+			(at 3.81 -2.540005 356)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
@@ -15268,7 +15267,7 @@
 		)
 		(fp_line
 			(start 7 -7)
-			(end 6 -7.000003)
+			(end 6 -7.000004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15278,7 +15277,7 @@
 		)
 		(fp_line
 			(start 7 7)
-			(end 7.000003 6)
+			(end 7.000004 6)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15427,7 +15426,7 @@
 			(uuid "60d3e58a-0529-4e50-9ec4-f91bd378649e")
 		)
 		(fp_line
-			(start -7.000003 -6)
+			(start -7.000004 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.15)
@@ -15448,7 +15447,7 @@
 		)
 		(fp_line
 			(start -7 7)
-			(end -6 7.000003)
+			(end -6 7.000004)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -15571,7 +15570,7 @@
 			(uuid "afed9de4-ee9d-4005-9e80-a78f361a9c00")
 		)
 		(pad "" np_thru_hole circle
-			(at 3.81 -2.540004 356)
+			(at 3.81 -2.540005 356)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
@@ -37381,7 +37380,7 @@
 		)
 	)
 	(gr_text "REVISION 1\nby Scramble"
-		(at 103.175 123.75 0)
+		(at 104.375 123.75 0)
 		(layer "B.SilkS")
 		(uuid "ca504387-225b-4cc2-a85d-370c16e48b9d")
 		(effects
@@ -37477,7 +37476,7 @@
 		)
 	)
 	(gr_text "KLAW"
-		(at 103.975 123.85 0)
+		(at 105.175 123.85 0)
 		(layer "B.SilkS")
 		(uuid "793ce0f3-74a2-4e06-a4a3-87afa18a3af0")
 		(effects
