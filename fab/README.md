@@ -47,15 +47,33 @@ JLCPCB's minimum order is 5 boards / 2 assembled, so a typical pair order is:
 
 > **Check the placement preview.** Rotation conventions vary between tools, so
 > in JLCPCB's "parts placement" review verify each part sits on its pads —
-> diode polarity against the silkscreen arrows, and LED orientation especially —
-> and nudge rotations there if needed. JLC's DFM review also flags misalignments.
-> Known rotation rules baked into these CPLs (calibrated against JLC's preview —
-> re-apply if regenerating): hotswap sockets (HS*) carry a +180° intrinsic tape
-> offset on both layers. Bottom-layer rows additionally need +180° over the
-> naive (360−θ) mirror ONLY for parts whose footprint has shared/same pads on
-> both faces (diodes, TRRS, encoder); parts with per-face mirrored pad patterns
-> (LEDs, sockets, buzzer, reset switch) already absorb the flip in the footprint
-> and use the plain mirror.
+> diode polarity against the silkscreen arrows — and nudge rotations there if
+> needed. JLC's DFM review also flags misalignments. **Exception — LEDs:** the
+> preview renders from JLC's library model, which is 180° off from the OPSCO
+> datasheet for C5378731, so correctly-ordered LEDs will LOOK 180° rotated in
+> the preview. Do NOT "fix" them there; verify with the bare-board diode test
+> on arrival instead (see postmortem below).
+> Known rotation rules baked into these CPLs (re-apply if regenerating):
+> hotswap sockets (HS*) **and LEDs (LED*)** carry a +180° intrinsic tape offset
+> on both layers. Bottom-layer rows additionally need +180° over the naive
+> (360−θ) mirror ONLY for parts whose footprint has shared/same pads on both
+> faces (diodes, TRRS, encoder); parts with per-face mirrored pad patterns
+> (LEDs, sockets, buzzer, reset switch) absorb the flip in the footprint and
+> use the plain mirror (plus intrinsic offset where noted). Current calibrated
+> LED values: Top rows 180° (176° for the rotated key), Bottom rows 0° (4°).
+>
+> **Run-1 postmortem (2026-09):** both halves shipped with every LED rotated
+> 180°. The footprint's original silkscreen marked the wrong pad, so the JLC
+> preview calibration AND physical inspection both "confirmed" the reversed
+> placement — and JLC's library model for C5378731 numbers the pins 180° from
+> the OPSCO datasheet (datasheet: 1 GND, 2 DIN, 3 VDD, 4 DOUT). A reversed
+> SK6812MINI-EA clamps the 5 V rail through its body diode (~0.4 V in diode
+> mode, ~0.7 V under load) and the board plays dead, while ohms mode reads a
+> healthy-looking ~7 kΩ (meter voltage below the junction threshold).
+> **Acceptance test for every batch, bare board, before fitting a controller:**
+> diode mode across VCC↔GND — **+ on VCC must read open**; ~0.4 V there means
+> reversed LEDs (+ on GND showing ~0.5 V is the normal body diode). The
+> silkscreen GND-pad mark is fixed as of run 2; parts must match it.
 
 ## Files
 
