@@ -1,5 +1,5 @@
 Part,Designators,Qty,LCSC Part #,Source,Mount Face,Notes
-klaw reversible PCB (klaw_1),PCB,1,-,JLCPCB fab,-,"Same gerbers both halves; left build components on FRONT face, right build on BACK face"
+klaw reversible PCB (klaw_2),PCB,1,-,JLCPCB fab,-,"Same gerbers both halves; left build components on FRONT face, right build on BACK face"
 1N4148W diode SOD-123,"D1-D10,D12-D16,D18,D20,D21",18,C81598,LCSC/JLC-assembled,Front,Orientation per silkscreen arrow; through-plated pads
 SK6812MINI-EA RGB LED (reverse-mount),"SW1-SW10,SW12-SW16,SW20,SW21",17,C5378731,LCSC/JLC-assembled,Front,Factory-reversed butterfly legs; lens shines through to keycap side
 MX hotswap socket (Kailh CPG151101S11 compat),"SW1-SW10,SW12-SW16,SW20,SW21",17,C41430893,LCSC/JLC-assembled,Front,"JLC-assembled; HanElectricity clone, footprint-identical to Kailh"

@@ -16,8 +16,8 @@ agents.md
 *_old
 
 # stale artifacts inherited from the original KLOR clone
-pcb/klaw_1/gerbers/
-pcb/klaw_1/KLOR_1-3_gerbers.zip
+pcb/klaw_2/gerbers/
+pcb/klaw_2/KLOR_1-3_gerbers.zip
 
 # board-level STEP exports (footprint models in KLOR.3dshapes stay tracked)
 /*.step

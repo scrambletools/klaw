@@ -32,7 +32,7 @@ configuration links, is machine-assembled.
 
 | Path | Contents |
 |---|---|
-| `pcb/klaw_1/` | KiCad 10 project — schematic, board, project library with LCSC sourcing fields and 3D models |
+| `pcb/klaw_2/` | KiCad 10 project — schematic, board, project library with LCSC sourcing fields and 3D models |
 | `fab/` | JLCPCB production files — gerbers, drills, BOM, placement (see `fab/README.md`) |
 | `bom/` | Per-half build BOMs (`bom_left.csv`, `bom_right.csv`) with LCSC part numbers |
 | `code/` | Firmware config (in progress) |
@@ -42,7 +42,7 @@ The case is designed in Plasticity and maintained outside this repository.
 ## Building one
 
 **1. Order the PCBs.** Both halves use the **same board** — upload
-`fab/klaw_1-gerbers.zip` to [JLCPCB](https://jlcpcb.com) (2-layer, 1.6 mm). For
+`fab/klaw_2-gerbers.zip` to [JLCPCB](https://jlcpcb.com) (2-layer, 1.6 mm). For
 machine assembly place **two orders with the same gerbers**: the right half
 assembles on the **Bottom** side (`fab/right-half/`), the left half on the
 **Top** side (`fab/left-half/`). Each order is double-sided and covers everything

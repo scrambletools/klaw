@@ -30,17 +30,17 @@ serves both keyboard halves — same gerbers, two assembly configurations:
   coordinates. The LED bodies protrude ~0.2 mm past the far face — JLC may add
   an assembly-fixture charge for this.
 
-> These files are committed from the design in `../pcb/klaw_1/`; don't hand-edit
+> These files are committed from the design in `../pcb/klaw_2/`; don't hand-edit
 > them. Regenerate with `kicad-cli` after design changes.
 
 ## How to order a pair
 
-Place **two PCBA orders**, both using the **same** `klaw_1-gerbers.zip`:
+Place **two PCBA orders**, both using the **same** `klaw_2-gerbers.zip`:
 
 | Order | Gerbers | BOM | CPL | Assembly side |
 |---|---|---|---|---|
-| Right halves | `klaw_1-gerbers.zip` | `right-half/klaw_1-right-BOM.csv` | `right-half/klaw_1-right-CPL.csv` | both (mostly Bottom) |
-| Left halves | `klaw_1-gerbers.zip` | `left-half/klaw_1-left-BOM.csv` | `left-half/klaw_1-left-CPL.csv` | both (mostly Top) |
+| Right halves | `klaw_2-gerbers.zip` | `right-half/klaw_2-right-BOM.csv` | `right-half/klaw_2-right-CPL.csv` | both (mostly Bottom) |
+| Left halves | `klaw_2-gerbers.zip` | `left-half/klaw_2-left-BOM.csv` | `left-half/klaw_2-left-CPL.csv` | both (mostly Top) |
 
 JLCPCB's minimum order is 5 boards / 2 assembled, so a typical pair order is:
 2× assembled right + 2× assembled left, with spare bare boards left over.
@@ -79,10 +79,10 @@ JLCPCB's minimum order is 5 boards / 2 assembled, so a typical pair order is:
 
 | File | Purpose |
 |---|---|
-| `klaw_1-gerbers.zip` | Upload to JLCPCB for PCB fab (copper, mask, paste, silk, edge, drills) — shared by both orders |
+| `klaw_2-gerbers.zip` | Upload to JLCPCB for PCB fab (copper, mask, paste, silk, edge, drills) — shared by both orders |
 | `right-half/` | Assembly BOM + CPL for the right half (Top side) |
 | `left-half/` | Assembly BOM + CPL for the left half (Bottom side) |
-| `klaw_1-*.gbr`, `klaw_1-*.drl` | The individual layers inside the zip, for inspection |
+| `klaw_2-*.gbr`, `klaw_2-*.drl` | The individual layers inside the zip, for inspection |
 
 ## Ordering notes
 
@@ -103,12 +103,12 @@ JLCPCB's minimum order is 5 boards / 2 assembled, so a typical pair order is:
 ## Regenerating
 
 ```sh
-cd pcb/klaw_1
+cd pcb/klaw_2
 kicad-cli pcb export gerbers -o ../../fab/ \
   --layers F.Cu,B.Cu,F.Mask,B.Mask,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,Edge.Cuts \
-  --no-protel-ext klaw_1.kicad_pcb
-kicad-cli pcb export drill --excellon-separate-th -o ../../fab/ klaw_1.kicad_pcb
-kicad-cli pcb export pos --format csv --units mm --side both -o pos.csv klaw_1.kicad_pcb
+  --no-protel-ext klaw_2.kicad_pcb
+kicad-cli pcb export drill --excellon-separate-th -o ../../fab/ klaw_2.kicad_pcb
+kicad-cli pcb export pos --format csv --units mm --side both -o pos.csv klaw_2.kicad_pcb
 # right CPL: Assembly=JLC refs, Layer=Top, as exported
 # left CPL:  same refs/coords, Layer=Bottom, rotation = (360 - rot) % 360
 ```
