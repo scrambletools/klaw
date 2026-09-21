@@ -998,7 +998,7 @@
     "top_level_sheets": [
       {
         "filename": "klaw_2.kicad_sch",
-        "name": "klor_claw",
+        "name": "klaw",
         "uuid": "3934cdea-42c8-4ab1-b1be-2c4978ab08ae"
       }
     ],
@@ -1008,7 +1008,7 @@
   "sheets": [
     [
       "3934cdea-42c8-4ab1-b1be-2c4978ab08ae",
-      "klor_claw"
+      "klaw"
     ]
   ],
   "text_variables": {},

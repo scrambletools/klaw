@@ -15,15 +15,14 @@ agents.md
 *-erc.rpt
 *_old
 
-# stale artifacts inherited from the original KLOR clone
+# stale artifacts from earlier revisions
 pcb/klaw_2/gerbers/
-pcb/klaw_2/KLOR_1-3_gerbers.zip
 
-# board-level STEP exports (footprint models in KLOR.3dshapes stay tracked)
+# board-level STEP exports (footprint models in klaw.3dshapes stay tracked)
 /*.step
 /*.stp
 
-# Plasticity churn — keep only the main model (case/klaw.plasticity);
+# Plasticity churn - keep only the main model (case/klaw.plasticity);
 # ignore autosave and rolling history snapshots
 *_autosave.plasticity
 case/plasticity/

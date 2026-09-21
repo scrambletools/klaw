@@ -1,7 +1,7 @@
-# KLAW — Fabrication & Assembly Files
+# KLAW - Fabrication & Assembly Files
 
 Production files for **JLCPCB** (PCB fab + PCBA assembly). One reversible board
-serves both keyboard halves — same gerbers, two assembly configurations:
+serves both keyboard halves - same gerbers, two assembly configurations:
 
 - **Right half** = keycap side is the PCB **front**; machine-assembled parts go
   on the **Bottom** (back) face
@@ -17,17 +17,17 @@ serves both keyboard halves — same gerbers, two assembly configurations:
 - **Not assembled:** power switch + JST connector (DNP, wired-first config),
   MCU + OLED (user-supplied, socketed), MX switches + keycaps (plug-in).
   Nothing on the board needs a soldering iron after assembly.
-- **Orientation:** the component face is the keyboard's underside — mostly
+- **Orientation:** the component face is the keyboard's underside - mostly
   Bottom for the right-half order, mostly Top for the left-half (each order is
   double-sided). Backwards-looking bottom silkscreen text in the raw 2D gerber
   view is correct (viewer convention), and Bottom-layer parts (e.g. the right
   build's diodes) legitimately look mirrored/reversed when compared against a
-  top view — judge polarity only by comparing a part against the silkscreen
+  top view - judge polarity only by comparing a part against the silkscreen
   arrow in the SAME view, never across views. The two builds' rotations are
-  twins by construction (shared-pad parts: bottom = (540 − top) mod 360).
+  twins by construction (shared-pad parts: bottom = (540 - top) mod 360).
 - LED placement rows use synthetic designators (`LED1`…`LED21`, numbered by key)
   since the LEDs share footprints with the switches; JLCPCB matches them by
-  coordinates. The LED bodies protrude ~0.2 mm past the far face — JLC may add
+  coordinates. The LED bodies protrude ~0.2 mm past the far face - JLC may add
   an assembly-fixture charge for this.
 
 > These files are committed from the design in `../pcb/klaw_2/`; don't hand-edit
@@ -46,9 +46,9 @@ JLCPCB's minimum order is 5 boards / 2 assembled, so a typical pair order is:
 2× assembled right + 2× assembled left, with spare bare boards left over.
 
 > **Check the placement preview.** Rotation conventions vary between tools, so
-> in JLCPCB's "parts placement" review verify each part sits on its pads —
-> diode polarity against the silkscreen arrows — and nudge rotations there if
-> needed. JLC's DFM review also flags misalignments. **Exception — LEDs:** the
+> in JLCPCB's "parts placement" review verify each part sits on its pads -
+> diode polarity against the silkscreen arrows - and nudge rotations there if
+> needed. JLC's DFM review also flags misalignments. **Exception - LEDs:** the
 > preview renders from JLC's library model, which is 180° off from the OPSCO
 > datasheet for C5378731, so correctly-ordered LEDs will LOOK 180° rotated in
 > the preview. Do NOT "fix" them there; verify with the bare-board diode test
@@ -56,7 +56,7 @@ JLCPCB's minimum order is 5 boards / 2 assembled, so a typical pair order is:
 > Known rotation rules baked into these CPLs (re-apply if regenerating):
 > hotswap sockets (HS*) **and LEDs (LED*)** carry a +180° intrinsic tape offset
 > on both layers. Bottom-layer rows additionally need +180° over the naive
-> (360−θ) mirror ONLY for parts whose footprint has shared/same pads on both
+> (360-θ) mirror ONLY for parts whose footprint has shared/same pads on both
 > faces (diodes, TRRS, encoder); parts with per-face mirrored pad patterns
 > (LEDs, sockets, buzzer, reset switch) absorb the flip in the footprint and
 > use the plain mirror (plus intrinsic offset where noted). Current calibrated
@@ -65,13 +65,13 @@ JLCPCB's minimum order is 5 boards / 2 assembled, so a typical pair order is:
 > **Run-1 postmortem (2026-09):** both halves shipped with every LED rotated
 > 180°. The footprint's original silkscreen marked the wrong pad, so the JLC
 > preview calibration AND physical inspection both "confirmed" the reversed
-> placement — and JLC's library model for C5378731 numbers the pins 180° from
+> placement - and JLC's library model for C5378731 numbers the pins 180° from
 > the OPSCO datasheet (datasheet: 1 GND, 2 DIN, 3 VDD, 4 DOUT). A reversed
 > SK6812MINI-EA clamps the 5 V rail through its body diode (~0.4 V in diode
 > mode, ~0.7 V under load) and the board plays dead, while ohms mode reads a
 > healthy-looking ~7 kΩ (meter voltage below the junction threshold).
 > **Acceptance test for every batch, bare board, before fitting a controller:**
-> diode mode across VCC↔GND — **+ on VCC must read open**; ~0.4 V there means
+> diode mode across VCC↔GND - **+ on VCC must read open**; ~0.4 V there means
 > reversed LEDs (+ on GND showing ~0.5 V is the normal body diode). The
 > silkscreen GND-pad mark is fixed as of run 2; parts must match it.
 
@@ -79,7 +79,7 @@ JLCPCB's minimum order is 5 boards / 2 assembled, so a typical pair order is:
 
 | File | Purpose |
 |---|---|
-| `klaw_2-gerbers.zip` | Upload to JLCPCB for PCB fab (copper, mask, paste, silk, edge, drills) — shared by both orders |
+| `klaw_2-gerbers.zip` | Upload to JLCPCB for PCB fab (copper, mask, paste, silk, edge, drills) - shared by both orders |
 | `right-half/` | Assembly BOM + CPL for the right half (Top side) |
 | `left-half/` | Assembly BOM + CPL for the left half (Bottom side) |
 | `klaw_2-*.gbr`, `klaw_2-*.drl` | The individual layers inside the zip, for inspection |
@@ -87,15 +87,15 @@ JLCPCB's minimum order is 5 boards / 2 assembled, so a typical pair order is:
 ## Ordering notes
 
 - **Wired-first configuration:** the power switch (PSW1) and JST battery
-  connector (BT1) are DNP — the wireless parts return in a future battery
+  connector (BT1) are DNP - the wireless parts return in a future battery
   variant.
-- LED (`LED1`…) and socket (`HS1`…) placement rows use synthetic designators —
+- LED (`LED1`…) and socket (`HS1`…) placement rows use synthetic designators -
   they share footprints with the switches; JLCPCB matches by coordinates.
-- The 0R configuration resistors (`JP*`) replace KLOR's solder jumpers: each
+- The 0R configuration resistors (`JP*`) select each build's configuration: each
   order places only its build's subset (keycap-face OLED/trackball set +
   component-face JST-polarity pair), so OLED pin mapping and battery polarity
   are correct per side with no hand bridging. Do NOT add the other side's JP
-  rows to an order — the JST pairs are mutually exclusive.
+  rows to an order - the JST pairs are mutually exclusive.
 - Confirm C41430893 (sockets) and the THT parts exist in JLCPCB's parts library
   at order time, or pre-order them into your JLC parts account.
 - The buzzer (`C201047`) runs low on stock; check availability before ordering.
