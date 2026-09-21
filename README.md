@@ -1,4 +1,4 @@
-# KLAW - 34-key reversible split keyboard
+# KLAW - 34-key split keyboard
 
 KLAW is a compact **34-key split keyboard with LEDs, OLED, buzzer and
 encoder**. It is designed as one reversible PCB that serves both halves -
@@ -6,7 +6,7 @@ components on the back face make the right half, components on the front face
 make the left half. One board design: the same gerber files can be used for
 both halves, with separate BOM and CPL files per half. Every component can be
 machine-assembled, but you may want to hand-assemble the MCU and OLED modules.
-The latest revision is rev 2.
+The latest hardware revision is rev 2.
 
 ![KLAW - assembled pair](docs/images/klaw_assembled.png)
 
